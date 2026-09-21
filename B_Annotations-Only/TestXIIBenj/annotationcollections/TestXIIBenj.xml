@@ -1,0 +1,3061 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>TestXIIBenj</title>
+                <author>Joel Klenk</author>
+                <author>Charlott Buschatz</author>
+                <author>Arne Käfer</author>
+                <author>Timotheus Kim</author>
+                <author>Nike Nehlsen</author>
+                <author>Anne Rath</author>
+                <author>Stefanie Steichele</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>University of Tübingen</publisher>
+                <date when="2026">2026</date>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Marinus de Jonge (ed.), The Testaments of the Twelve Patriarchs: A Critical Edition of the Greek Text (Pseudepigrapha Veteris Testamenti Graece 1.2), Leiden: Brill 1978, 1–180</bibl>
+                <p>The base text is not published with this file. The character offsets refer to the version to be reconstructed as described in README.md; the expected character count and SHA-256 are given in manifest.json.</p>
+                <ab>
+                    <fs xml:id="CATMA_TECH_DESC">
+                        <f name="version">
+                            <string>5</string>
+                        </f>
+                    </fs>
+                </ab>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <fsdDecl xml:id="T_E8EF5603-A720-4B05-9981-D7C978B2B75D" n="Generic traits c439eeea0269b865200f8094d4c09f4fa4bc0b32">
+                <fsDecl xml:id="CATMA_78630DE6-D90A-4FC3-833B-9DD1ED90EE7C" n="2026-09-03T18:13:08.000+0200" type="CATMA_78630DE6-D90A-4FC3-833B-9DD1ED90EE7C">
+                    <fsDescr>[I] Independent traits</fsDescr>
+                    <fDecl xml:id="CATMA_54A5F93F-5333-3F0D-92F7-7BD5930DB9E6" name="catma_markuptimestamp">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_A309D8FB-C5B8-33C9-A1B1-8CF7A5548C6A" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-11773690</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_AB27F1D4-303A-3622-BB2C-72C310D0C1BF" name="catma_markupauthor">
+                        <vRange>
+                            <vColl>
+                                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+                <fsDecl xml:id="CATMA_E59B33AC-636C-4B87-A89D-DA0562830074" n="2026-09-03T18:13:08.000+0200" type="CATMA_E59B33AC-636C-4B87-A89D-DA0562830074" baseTypes="CATMA_78630DE6-D90A-4FC3-833B-9DD1ED90EE7C">
+                    <fsDescr>[I1] (proximity of) death</fsDescr>
+                    <fDecl xml:id="CATMA_54A5F93F-5333-3F0D-92F7-7BD5930DB9E6" name="catma_markuptimestamp">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_A309D8FB-C5B8-33C9-A1B1-8CF7A5548C6A" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-2404688</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_AB27F1D4-303A-3622-BB2C-72C310D0C1BF" name="catma_markupauthor">
+                        <vRange>
+                            <vColl>
+                                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+                <fsDecl xml:id="CATMA_8078A771-B9D3-4BCC-BF06-7B7DEB0645A8" n="2026-09-03T18:13:08.000+0200" type="CATMA_8078A771-B9D3-4BCC-BF06-7B7DEB0645A8" baseTypes="CATMA_78630DE6-D90A-4FC3-833B-9DD1ED90EE7C">
+                    <fsDescr>[I4] Speaker</fsDescr>
+                    <fDecl xml:id="CATMA_54A5F93F-5333-3F0D-92F7-7BD5930DB9E6" name="catma_markuptimestamp">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_A309D8FB-C5B8-33C9-A1B1-8CF7A5548C6A" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-1906976</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_AB27F1D4-303A-3622-BB2C-72C310D0C1BF" name="catma_markupauthor">
+                        <vRange>
+                            <vColl>
+                                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_F9C56289-9295-418B-A43A-8B89EE4D45B9" name="direct_characterization__titles__names">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+                <fsDecl xml:id="CATMA_AC7F13B5-D6A5-4360-9C0B-515FBE274BDF" n="2026-09-03T18:13:08.000+0200" type="CATMA_AC7F13B5-D6A5-4360-9C0B-515FBE274BDF" baseTypes="CATMA_78630DE6-D90A-4FC3-833B-9DD1ED90EE7C">
+                    <fsDescr>[I3] family (relations)</fsDescr>
+                    <fDecl xml:id="CATMA_54A5F93F-5333-3F0D-92F7-7BD5930DB9E6" name="catma_markuptimestamp">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_A309D8FB-C5B8-33C9-A1B1-8CF7A5548C6A" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-2803988</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_AB27F1D4-303A-3622-BB2C-72C310D0C1BF" name="catma_markupauthor">
+                        <vRange>
+                            <vColl>
+                                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+                <fsDecl xml:id="CATMA_7D5B4E86-D04A-4E36-8961-F49A374019EA" n="2026-09-03T18:13:08.000+0200" type="CATMA_7D5B4E86-D04A-4E36-8961-F49A374019EA" baseTypes="CATMA_78630DE6-D90A-4FC3-833B-9DD1ED90EE7C">
+                    <fsDescr>[I2] addressee(s)</fsDescr>
+                    <fDecl xml:id="CATMA_54A5F93F-5333-3F0D-92F7-7BD5930DB9E6" name="catma_markuptimestamp">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_A309D8FB-C5B8-33C9-A1B1-8CF7A5548C6A" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-8878447</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_AB27F1D4-303A-3622-BB2C-72C310D0C1BF" name="catma_markupauthor">
+                        <vRange>
+                            <vColl>
+                                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+                <fsDecl xml:id="CATMA_A35DE58A-8FEF-43D0-B740-C8E1029A7C9E" n="2026-09-03T18:13:08.000+0200" type="CATMA_A35DE58A-8FEF-43D0-B740-C8E1029A7C9E" baseTypes="CATMA_7D5B4E86-D04A-4E36-8961-F49A374019EA">
+                    <fsDescr>[I2a] inauguration of a successor</fsDescr>
+                    <fDecl xml:id="CATMA_54A5F93F-5333-3F0D-92F7-7BD5930DB9E6" name="catma_markuptimestamp">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_A309D8FB-C5B8-33C9-A1B1-8CF7A5548C6A" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-3804475</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_AB27F1D4-303A-3622-BB2C-72C310D0C1BF" name="catma_markupauthor">
+                        <vRange>
+                            <vColl>
+                                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+                <fsDecl xml:id="CATMA_6E376977-1E03-44E9-860A-0B1C90F8568D" n="2026-09-03T18:13:08.000+0200" type="CATMA_6E376977-1E03-44E9-860A-0B1C90F8568D">
+                    <fsDescr>[N] Narrative Setting</fsDescr>
+                    <fDecl xml:id="CATMA_54A5F93F-5333-3F0D-92F7-7BD5930DB9E6" name="catma_markuptimestamp">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_A309D8FB-C5B8-33C9-A1B1-8CF7A5548C6A" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-7906388</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_AB27F1D4-303A-3622-BB2C-72C310D0C1BF" name="catma_markupauthor">
+                        <vRange>
+                            <vColl>
+                                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+                <fsDecl xml:id="CATMA_253FA625-1966-430C-943B-112B92D09DB8" n="2026-09-03T18:13:08.000+0200" type="CATMA_253FA625-1966-430C-943B-112B92D09DB8" baseTypes="CATMA_6E376977-1E03-44E9-860A-0B1C90F8568D">
+                    <fsDescr>[N1] narrative opening</fsDescr>
+                    <fDecl xml:id="CATMA_54A5F93F-5333-3F0D-92F7-7BD5930DB9E6" name="catma_markuptimestamp">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_A309D8FB-C5B8-33C9-A1B1-8CF7A5548C6A" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-7187192</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_AB27F1D4-303A-3622-BB2C-72C310D0C1BF" name="catma_markupauthor">
+                        <vRange>
+                            <vColl>
+                                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+                <fsDecl xml:id="CATMA_ECB3B71C-8C4D-4E4E-BCF4-124653C915BB" n="2026-09-03T18:13:08.000+0200" type="CATMA_ECB3B71C-8C4D-4E4E-BCF4-124653C915BB" baseTypes="CATMA_253FA625-1966-430C-943B-112B92D09DB8">
+                    <fsDescr>[N1a] age of death</fsDescr>
+                    <fDecl xml:id="CATMA_54A5F93F-5333-3F0D-92F7-7BD5930DB9E6" name="catma_markuptimestamp">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_A309D8FB-C5B8-33C9-A1B1-8CF7A5548C6A" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-11203455</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_AB27F1D4-303A-3622-BB2C-72C310D0C1BF" name="catma_markupauthor">
+                        <vRange>
+                            <vColl>
+                                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+                <fsDecl xml:id="CATMA_BC1E6BF1-6F7D-4711-A94F-C560FF94D083" n="2026-09-03T18:13:08.000+0200" type="CATMA_BC1E6BF1-6F7D-4711-A94F-C560FF94D083" baseTypes="CATMA_253FA625-1966-430C-943B-112B92D09DB8">
+                    <fsDescr>[N1c] Introduction formula</fsDescr>
+                    <fDecl xml:id="CATMA_54A5F93F-5333-3F0D-92F7-7BD5930DB9E6" name="catma_markuptimestamp">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_A309D8FB-C5B8-33C9-A1B1-8CF7A5548C6A" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-12269129</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_AB27F1D4-303A-3622-BB2C-72C310D0C1BF" name="catma_markupauthor">
+                        <vRange>
+                            <vColl>
+                                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+                <fsDecl xml:id="CATMA_06FB9C2D-02C8-41D2-8095-8509CC0C33CA" n="2026-09-03T18:13:08.000+0200" type="CATMA_06FB9C2D-02C8-41D2-8095-8509CC0C33CA" baseTypes="CATMA_253FA625-1966-430C-943B-112B92D09DB8">
+                    <fsDescr>[N1b] gathering</fsDescr>
+                    <fDecl xml:id="CATMA_54A5F93F-5333-3F0D-92F7-7BD5930DB9E6" name="catma_markuptimestamp">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_A309D8FB-C5B8-33C9-A1B1-8CF7A5548C6A" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-6480974</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_AB27F1D4-303A-3622-BB2C-72C310D0C1BF" name="catma_markupauthor">
+                        <vRange>
+                            <vColl>
+                                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_C4489B73-5F30-4A80-A98B-8F9FEBF417D8" name="of_the_addressees__relatives__nation">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+                <fsDecl xml:id="CATMA_409E2E01-92D7-4C0F-8F84-02BA93FB528D" n="2026-09-03T18:13:08.000+0200" type="CATMA_409E2E01-92D7-4C0F-8F84-02BA93FB528D" baseTypes="CATMA_6E376977-1E03-44E9-860A-0B1C90F8568D">
+                    <fsDescr>[N2] narrative closing</fsDescr>
+                    <fDecl xml:id="CATMA_54A5F93F-5333-3F0D-92F7-7BD5930DB9E6" name="catma_markuptimestamp">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_A309D8FB-C5B8-33C9-A1B1-8CF7A5548C6A" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-10652791</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_AB27F1D4-303A-3622-BB2C-72C310D0C1BF" name="catma_markupauthor">
+                        <vRange>
+                            <vColl>
+                                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+                <fsDecl xml:id="CATMA_3D749A75-7936-4E58-B01E-41D7F0EA1DBE" n="2026-09-03T18:13:08.000+0200" type="CATMA_3D749A75-7936-4E58-B01E-41D7F0EA1DBE" baseTypes="CATMA_409E2E01-92D7-4C0F-8F84-02BA93FB528D">
+                    <fsDescr>[N2b] burial details</fsDescr>
+                    <fDecl xml:id="CATMA_54A5F93F-5333-3F0D-92F7-7BD5930DB9E6" name="catma_markuptimestamp">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_A309D8FB-C5B8-33C9-A1B1-8CF7A5548C6A" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-12461996</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_AB27F1D4-303A-3622-BB2C-72C310D0C1BF" name="catma_markupauthor">
+                        <vRange>
+                            <vColl>
+                                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+                <fsDecl xml:id="CATMA_831F210F-AFBE-4AD4-86D4-80C02CEBC761" n="2026-09-03T18:13:08.000+0200" type="CATMA_831F210F-AFBE-4AD4-86D4-80C02CEBC761" baseTypes="CATMA_409E2E01-92D7-4C0F-8F84-02BA93FB528D">
+                    <fsDescr>[N2a] Closing formula</fsDescr>
+                    <fDecl xml:id="CATMA_54A5F93F-5333-3F0D-92F7-7BD5930DB9E6" name="catma_markuptimestamp">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_A309D8FB-C5B8-33C9-A1B1-8CF7A5548C6A" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-15371886</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_AB27F1D4-303A-3622-BB2C-72C310D0C1BF" name="catma_markupauthor">
+                        <vRange>
+                            <vColl>
+                                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+                <fsDecl xml:id="CATMA_4A728083-DC42-4CA5-AD39-52363C41BE17" n="2026-09-03T18:13:08.000+0200" type="CATMA_4A728083-DC42-4CA5-AD39-52363C41BE17">
+                    <fsDescr>[T] Testament</fsDescr>
+                    <fDecl xml:id="CATMA_54A5F93F-5333-3F0D-92F7-7BD5930DB9E6" name="catma_markuptimestamp">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_A309D8FB-C5B8-33C9-A1B1-8CF7A5548C6A" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-13064213</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_AB27F1D4-303A-3622-BB2C-72C310D0C1BF" name="catma_markupauthor">
+                        <vRange>
+                            <vColl>
+                                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_BCAD71A5-4A10-493B-A908-A8B5F3D779A8" name="farewell_address___oral__speech">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+                <fsDecl xml:id="CATMA_C795D5F8-A239-4997-B50C-B7F4E5880D97" n="2026-09-03T18:13:08.000+0200" type="CATMA_C795D5F8-A239-4997-B50C-B7F4E5880D97" baseTypes="CATMA_4A728083-DC42-4CA5-AD39-52363C41BE17">
+                    <fsDescr>[T4] salvatory assertion</fsDescr>
+                    <fDecl xml:id="CATMA_54A5F93F-5333-3F0D-92F7-7BD5930DB9E6" name="catma_markuptimestamp">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_A309D8FB-C5B8-33C9-A1B1-8CF7A5548C6A" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-9628849</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_AB27F1D4-303A-3622-BB2C-72C310D0C1BF" name="catma_markupauthor">
+                        <vRange>
+                            <vColl>
+                                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+                <fsDecl xml:id="CATMA_DC991E6D-36EC-4E60-B19B-677ACA5DBCA0" n="2026-09-03T18:13:08.000+0200" type="CATMA_DC991E6D-36EC-4E60-B19B-677ACA5DBCA0" baseTypes="CATMA_4A728083-DC42-4CA5-AD39-52363C41BE17">
+                    <fsDescr>[T1] retrospection</fsDescr>
+                    <fDecl xml:id="CATMA_54A5F93F-5333-3F0D-92F7-7BD5930DB9E6" name="catma_markuptimestamp">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_A309D8FB-C5B8-33C9-A1B1-8CF7A5548C6A" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-4802607</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_AB27F1D4-303A-3622-BB2C-72C310D0C1BF" name="catma_markupauthor">
+                        <vRange>
+                            <vColl>
+                                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_EBD832E6-78AB-470A-9BC4-60A3F92EB0D2" name="biographical_historical_retrospective">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+                <fsDecl xml:id="CATMA_498D245F-9E9C-45AD-A76F-7707727BC69F" n="2026-09-03T18:13:08.000+0200" type="CATMA_498D245F-9E9C-45AD-A76F-7707727BC69F" baseTypes="CATMA_4A728083-DC42-4CA5-AD39-52363C41BE17">
+                    <fsDescr>[T3] Ethical exhortations</fsDescr>
+                    <fDecl xml:id="CATMA_54A5F93F-5333-3F0D-92F7-7BD5930DB9E6" name="catma_markuptimestamp">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_A309D8FB-C5B8-33C9-A1B1-8CF7A5548C6A" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-2182121</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_AB27F1D4-303A-3622-BB2C-72C310D0C1BF" name="catma_markupauthor">
+                        <vRange>
+                            <vColl>
+                                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_38CF08DD-8BC7-438A-9070-EC0227075DF0" name="parenetical_ethical_content">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+                <fsDecl xml:id="CATMA_BE9211A3-E16E-4633-A1F9-49DDD88B4AE3" n="2026-09-03T18:13:08.000+0200" type="CATMA_BE9211A3-E16E-4633-A1F9-49DDD88B4AE3" baseTypes="CATMA_498D245F-9E9C-45AD-A76F-7707727BC69F">
+                    <fsDescr>[T3g] Law/tora</fsDescr>
+                    <fDecl xml:id="CATMA_54A5F93F-5333-3F0D-92F7-7BD5930DB9E6" name="catma_markuptimestamp">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_A309D8FB-C5B8-33C9-A1B1-8CF7A5548C6A" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-2238829</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_AB27F1D4-303A-3622-BB2C-72C310D0C1BF" name="catma_markupauthor">
+                        <vRange>
+                            <vColl>
+                                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+                <fsDecl xml:id="CATMA_A0F4463A-2F40-492C-8087-51C148D5C962" n="2026-09-03T18:13:08.000+0200" type="CATMA_A0F4463A-2F40-492C-8087-51C148D5C962" baseTypes="CATMA_498D245F-9E9C-45AD-A76F-7707727BC69F">
+                    <fsDescr>[T3c] love/hatred</fsDescr>
+                    <fDecl xml:id="CATMA_54A5F93F-5333-3F0D-92F7-7BD5930DB9E6" name="catma_markuptimestamp">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_A309D8FB-C5B8-33C9-A1B1-8CF7A5548C6A" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-10825817</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_AB27F1D4-303A-3622-BB2C-72C310D0C1BF" name="catma_markupauthor">
+                        <vRange>
+                            <vColl>
+                                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+                <fsDecl xml:id="CATMA_CD4670C4-637B-413F-BB43-AA62FBCF8647" n="2026-09-03T18:13:08.000+0200" type="CATMA_CD4670C4-637B-413F-BB43-AA62FBCF8647" baseTypes="CATMA_498D245F-9E9C-45AD-A76F-7707727BC69F">
+                    <fsDescr>[T3b] Great Commandment</fsDescr>
+                    <fDecl xml:id="CATMA_54A5F93F-5333-3F0D-92F7-7BD5930DB9E6" name="catma_markuptimestamp">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_A309D8FB-C5B8-33C9-A1B1-8CF7A5548C6A" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-11991287</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_AB27F1D4-303A-3622-BB2C-72C310D0C1BF" name="catma_markupauthor">
+                        <vRange>
+                            <vColl>
+                                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_6C956046-93EE-4B27-8C45-0F8C4F58DFE9" name="_double__love_command">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+                <fsDecl xml:id="CATMA_5A910BFB-CA4B-4E95-9089-BF9B8D8CF546" n="2026-09-03T18:13:08.000+0200" type="CATMA_5A910BFB-CA4B-4E95-9089-BF9B8D8CF546" baseTypes="CATMA_CD4670C4-637B-413F-BB43-AA62FBCF8647">
+                    <fsDescr>[T3bα] Love to God</fsDescr>
+                    <fDecl xml:id="CATMA_54A5F93F-5333-3F0D-92F7-7BD5930DB9E6" name="catma_markuptimestamp">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_A309D8FB-C5B8-33C9-A1B1-8CF7A5548C6A" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-14856318</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_AB27F1D4-303A-3622-BB2C-72C310D0C1BF" name="catma_markupauthor">
+                        <vRange>
+                            <vColl>
+                                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_FFFD102B-3B40-4B05-996F-25EB27680C84" name="relationship_to_God__awe__love__cultic_practices_etc._">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+                <fsDecl xml:id="CATMA_A6ABF936-99A0-4412-9C14-23740CCE91FD" n="2026-09-03T18:13:08.000+0200" type="CATMA_A6ABF936-99A0-4412-9C14-23740CCE91FD" baseTypes="CATMA_CD4670C4-637B-413F-BB43-AA62FBCF8647">
+                    <fsDescr>[T3bβ] Love to men</fsDescr>
+                    <fDecl xml:id="CATMA_54A5F93F-5333-3F0D-92F7-7BD5930DB9E6" name="catma_markuptimestamp">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_A309D8FB-C5B8-33C9-A1B1-8CF7A5548C6A" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-618686</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_AB27F1D4-303A-3622-BB2C-72C310D0C1BF" name="catma_markupauthor">
+                        <vRange>
+                            <vColl>
+                                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+                <fsDecl xml:id="CATMA_A6623BBE-E39F-40C7-B2E7-DFEFB6F56237" n="2026-09-03T18:13:08.000+0200" type="CATMA_A6623BBE-E39F-40C7-B2E7-DFEFB6F56237" baseTypes="CATMA_498D245F-9E9C-45AD-A76F-7707727BC69F">
+                    <fsDescr>[T3h] Own Words/Commandments</fsDescr>
+                    <fDecl xml:id="CATMA_54A5F93F-5333-3F0D-92F7-7BD5930DB9E6" name="catma_markuptimestamp">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_A309D8FB-C5B8-33C9-A1B1-8CF7A5548C6A" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-138451</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_AB27F1D4-303A-3622-BB2C-72C310D0C1BF" name="catma_markupauthor">
+                        <vRange>
+                            <vColl>
+                                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_F51BA409-A019-4CA7-B3DD-58E8FC438048" name="following__listening__marking">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+                <fsDecl xml:id="CATMA_3DB89A41-7A1B-4E01-B416-6E7584451D0C" n="2026-09-03T18:13:08.000+0200" type="CATMA_3DB89A41-7A1B-4E01-B416-6E7584451D0C" baseTypes="CATMA_498D245F-9E9C-45AD-A76F-7707727BC69F">
+                    <fsDescr>[T3a] burial order</fsDescr>
+                    <fDecl xml:id="CATMA_54A5F93F-5333-3F0D-92F7-7BD5930DB9E6" name="catma_markuptimestamp">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_A309D8FB-C5B8-33C9-A1B1-8CF7A5548C6A" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-3082604</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_AB27F1D4-303A-3622-BB2C-72C310D0C1BF" name="catma_markupauthor">
+                        <vRange>
+                            <vColl>
+                                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_690E170A-6F73-4D5B-9855-4126C72D8B41" name="death_related_orders_rituals">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+                <fsDecl xml:id="CATMA_F6068797-C6FC-48E5-9457-4C1EF8E7F6A1" n="2026-09-03T18:13:08.000+0200" type="CATMA_F6068797-C6FC-48E5-9457-4C1EF8E7F6A1" baseTypes="CATMA_498D245F-9E9C-45AD-A76F-7707727BC69F">
+                    <fsDescr>[T3e] works of mercy</fsDescr>
+                    <fDecl xml:id="CATMA_54A5F93F-5333-3F0D-92F7-7BD5930DB9E6" name="catma_markuptimestamp">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_A309D8FB-C5B8-33C9-A1B1-8CF7A5548C6A" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-9848457</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_AB27F1D4-303A-3622-BB2C-72C310D0C1BF" name="catma_markupauthor">
+                        <vRange>
+                            <vColl>
+                                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+                <fsDecl xml:id="CATMA_C3046FEA-DAA7-4B4D-B736-A778748E23D9" n="2026-09-03T18:13:08.000+0200" type="CATMA_C3046FEA-DAA7-4B4D-B736-A778748E23D9" baseTypes="CATMA_498D245F-9E9C-45AD-A76F-7707727BC69F">
+                    <fsDescr>[T3d] marriage/divorce</fsDescr>
+                    <fDecl xml:id="CATMA_54A5F93F-5333-3F0D-92F7-7BD5930DB9E6" name="catma_markuptimestamp">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_A309D8FB-C5B8-33C9-A1B1-8CF7A5548C6A" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-3787722</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_AB27F1D4-303A-3622-BB2C-72C310D0C1BF" name="catma_markupauthor">
+                        <vRange>
+                            <vColl>
+                                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+                <fsDecl xml:id="CATMA_93E5B3C2-DB73-4A58-BB17-14314BFF0132" n="2026-09-03T18:13:08.000+0200" type="CATMA_93E5B3C2-DB73-4A58-BB17-14314BFF0132" baseTypes="CATMA_498D245F-9E9C-45AD-A76F-7707727BC69F">
+                    <fsDescr>[T3f] purity/impurity</fsDescr>
+                    <fDecl xml:id="CATMA_54A5F93F-5333-3F0D-92F7-7BD5930DB9E6" name="catma_markuptimestamp">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_A309D8FB-C5B8-33C9-A1B1-8CF7A5548C6A" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-6121226</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_AB27F1D4-303A-3622-BB2C-72C310D0C1BF" name="catma_markupauthor">
+                        <vRange>
+                            <vColl>
+                                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+                <fsDecl xml:id="CATMA_3B4FD37E-39DC-40A6-A3FB-0A5E5BC3AFA3" n="2026-09-03T18:13:08.000+0200" type="CATMA_3B4FD37E-39DC-40A6-A3FB-0A5E5BC3AFA3" baseTypes="CATMA_4A728083-DC42-4CA5-AD39-52363C41BE17">
+                    <fsDescr>[T2] eschatological perspective</fsDescr>
+                    <fDecl xml:id="CATMA_54A5F93F-5333-3F0D-92F7-7BD5930DB9E6" name="catma_markuptimestamp">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_A309D8FB-C5B8-33C9-A1B1-8CF7A5548C6A" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-9370377</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_AB27F1D4-303A-3622-BB2C-72C310D0C1BF" name="catma_markupauthor">
+                        <vRange>
+                            <vColl>
+                                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_ACD35CF6-39EE-4F05-82E6-36FAAB86BD82" name="final_judgement">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_905342CC-074F-41DC-BDAF-95FF32286D19" name="wages">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_D0FD4123-D8A4-4C39-9D2E-377D59EF1F0B" name="punishment">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_11AD14B1-0A16-456E-A3C7-5D42D8BFE466" name="treasure">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+                <fsDecl xml:id="CATMA_0585DDD8-9BED-4F96-8EE6-4DFABD06235A" n="2026-09-03T18:13:08.000+0200" type="CATMA_0585DDD8-9BED-4F96-8EE6-4DFABD06235A" baseTypes="CATMA_3B4FD37E-39DC-40A6-A3FB-0A5E5BC3AFA3">
+                    <fsDescr>[T2b] blessing</fsDescr>
+                    <fDecl xml:id="CATMA_54A5F93F-5333-3F0D-92F7-7BD5930DB9E6" name="catma_markuptimestamp">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_A309D8FB-C5B8-33C9-A1B1-8CF7A5548C6A" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-12232914</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_AB27F1D4-303A-3622-BB2C-72C310D0C1BF" name="catma_markupauthor">
+                        <vRange>
+                            <vColl>
+                                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+                <fsDecl xml:id="CATMA_1EFB5BA1-BD27-4D19-B546-E10C45E47E04" n="2026-09-03T18:13:08.000+0200" type="CATMA_1EFB5BA1-BD27-4D19-B546-E10C45E47E04" baseTypes="CATMA_3B4FD37E-39DC-40A6-A3FB-0A5E5BC3AFA3">
+                    <fsDescr>[T2a] threat/curse/judgement</fsDescr>
+                    <fDecl xml:id="CATMA_54A5F93F-5333-3F0D-92F7-7BD5930DB9E6" name="catma_markuptimestamp">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_A309D8FB-C5B8-33C9-A1B1-8CF7A5548C6A" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-10763045</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_AB27F1D4-303A-3622-BB2C-72C310D0C1BF" name="catma_markupauthor">
+                        <vRange>
+                            <vColl>
+                                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+                <fsDecl xml:id="CATMA_ACE0E7EB-0E74-4845-B257-475B9B6FE9F1" n="2026-09-03T18:13:08.000+0200" type="CATMA_ACE0E7EB-0E74-4845-B257-475B9B6FE9F1" baseTypes="CATMA_3B4FD37E-39DC-40A6-A3FB-0A5E5BC3AFA3">
+                    <fsDescr>[T2c] conditioned promise</fsDescr>
+                    <fDecl xml:id="CATMA_54A5F93F-5333-3F0D-92F7-7BD5930DB9E6" name="catma_markuptimestamp">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_A309D8FB-C5B8-33C9-A1B1-8CF7A5548C6A" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-8168132</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_AB27F1D4-303A-3622-BB2C-72C310D0C1BF" name="catma_markupauthor">
+                        <vRange>
+                            <vColl>
+                                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+            </fsdDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <ab type="catma">
+                <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=0,44" type="inclusion"/>
+                <seg ana="#CATMA_8B81F9A3-CE53-4790-B696-248232C3C14F #CATMA_8864229F-9ECE-4590-9348-B546DAE2229B #CATMA_B459D054-5E3B-4508-A640-9B6CB98584B9">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=44,64" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_8B81F9A3-CE53-4790-B696-248232C3C14F #CATMA_8864229F-9ECE-4590-9348-B546DAE2229B #CATMA_B459D054-5E3B-4508-A640-9B6CB98584B9 #CATMA_EC6D4CA6-2DE2-4CA2-AF93-962E70C8361C">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=64,72" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_8B81F9A3-CE53-4790-B696-248232C3C14F #CATMA_8864229F-9ECE-4590-9348-B546DAE2229B #CATMA_B459D054-5E3B-4508-A640-9B6CB98584B9">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=72,84" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_8B81F9A3-CE53-4790-B696-248232C3C14F #CATMA_8864229F-9ECE-4590-9348-B546DAE2229B #CATMA_B459D054-5E3B-4508-A640-9B6CB98584B9 #CATMA_023D5D42-9EE6-453D-AC43-BEDC27474A24">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=84,85" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_8B81F9A3-CE53-4790-B696-248232C3C14F #CATMA_8864229F-9ECE-4590-9348-B546DAE2229B #CATMA_B459D054-5E3B-4508-A640-9B6CB98584B9 #CATMA_023D5D42-9EE6-453D-AC43-BEDC27474A24 #CATMA_949662B2-5E9B-4008-A0AF-AE59E7CFA917">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=85,101" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_8B81F9A3-CE53-4790-B696-248232C3C14F #CATMA_8864229F-9ECE-4590-9348-B546DAE2229B #CATMA_B459D054-5E3B-4508-A640-9B6CB98584B9 #CATMA_023D5D42-9EE6-453D-AC43-BEDC27474A24">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=101,102" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_8864229F-9ECE-4590-9348-B546DAE2229B #CATMA_B459D054-5E3B-4508-A640-9B6CB98584B9">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=102,103" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_8864229F-9ECE-4590-9348-B546DAE2229B #CATMA_B459D054-5E3B-4508-A640-9B6CB98584B9 #CATMA_8386E484-7F15-4D15-9D3F-E2313744D781">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=103,128" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_8864229F-9ECE-4590-9348-B546DAE2229B #CATMA_B459D054-5E3B-4508-A640-9B6CB98584B9">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=128,131" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_8864229F-9ECE-4590-9348-B546DAE2229B #CATMA_B459D054-5E3B-4508-A640-9B6CB98584B9 #CATMA_62C4D378-2969-441F-A8ED-96B8D4656E89">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=131,157" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_8864229F-9ECE-4590-9348-B546DAE2229B #CATMA_B459D054-5E3B-4508-A640-9B6CB98584B9 #CATMA_62C4D378-2969-441F-A8ED-96B8D4656E89 #CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_0B2AB389-D162-4074-92FE-9B8BDCD9A9D4">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=157,158" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_0B2AB389-D162-4074-92FE-9B8BDCD9A9D4">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=158,161" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_0B2AB389-D162-4074-92FE-9B8BDCD9A9D4 #CATMA_4BD0F0D3-9F75-4A42-9E26-17B4B66B36FF">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=161,166" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_0B2AB389-D162-4074-92FE-9B8BDCD9A9D4">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=166,191" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_0B2AB389-D162-4074-92FE-9B8BDCD9A9D4 #CATMA_F4A35605-58CB-4267-94B6-62F09751DFF5">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=191,197" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_0B2AB389-D162-4074-92FE-9B8BDCD9A9D4">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=197,205" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_0B2AB389-D162-4074-92FE-9B8BDCD9A9D4 #CATMA_7434F39E-6944-4F56-9A13-C631D2C7E223">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=205,209" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_0B2AB389-D162-4074-92FE-9B8BDCD9A9D4">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=209,213" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_0B2AB389-D162-4074-92FE-9B8BDCD9A9D4 #CATMA_BE8D032A-2D91-48AB-BA8B-D50B7A668F1E">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=213,218" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_0B2AB389-D162-4074-92FE-9B8BDCD9A9D4">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=218,234" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_0B2AB389-D162-4074-92FE-9B8BDCD9A9D4 #CATMA_D59CB20D-A727-46AF-B1ED-934BB4AD47D7">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=234,239" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_0B2AB389-D162-4074-92FE-9B8BDCD9A9D4">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=239,276" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_0B2AB389-D162-4074-92FE-9B8BDCD9A9D4 #CATMA_651E2C9E-CD87-4674-BF97-96A5C8263D74">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=276,282" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_0B2AB389-D162-4074-92FE-9B8BDCD9A9D4">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=282,325" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_0B2AB389-D162-4074-92FE-9B8BDCD9A9D4 #CATMA_6A6AB73B-494C-4F91-A9B3-6F91A3854815">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=325,330" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_0B2AB389-D162-4074-92FE-9B8BDCD9A9D4">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=330,471" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_0B2AB389-D162-4074-92FE-9B8BDCD9A9D4 #CATMA_04446341-A648-4593-A879-7B70CA903F45 #CATMA_F8A2A65D-98A0-443E-9C7C-C6806800D765">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=471,482" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_0B2AB389-D162-4074-92FE-9B8BDCD9A9D4 #CATMA_F8A2A65D-98A0-443E-9C7C-C6806800D765">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=482,498" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_0B2AB389-D162-4074-92FE-9B8BDCD9A9D4">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=498,510" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_0B2AB389-D162-4074-92FE-9B8BDCD9A9D4 #CATMA_D61D2638-EA6D-4F85-BEAA-F5C07B449637">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=510,519" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_0B2AB389-D162-4074-92FE-9B8BDCD9A9D4">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=519,539" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_0B2AB389-D162-4074-92FE-9B8BDCD9A9D4 #CATMA_F8E76A17-59AA-4FB9-9165-912433125CA0">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=539,588" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_0B2AB389-D162-4074-92FE-9B8BDCD9A9D4">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=588,644" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_0B2AB389-D162-4074-92FE-9B8BDCD9A9D4 #CATMA_4BDF3438-3576-4B8F-B54E-3A4E63BBE0E2">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=644,663" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_0B2AB389-D162-4074-92FE-9B8BDCD9A9D4">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=663,685" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_0B2AB389-D162-4074-92FE-9B8BDCD9A9D4 #CATMA_D7EF9B85-1F29-49D2-9519-27A143A91E0F">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=685,697" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_0B2AB389-D162-4074-92FE-9B8BDCD9A9D4">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=697,809" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_0B2AB389-D162-4074-92FE-9B8BDCD9A9D4 #CATMA_929B3A62-C6B1-427B-A43A-19EA832EC2B4">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=809,821" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_0B2AB389-D162-4074-92FE-9B8BDCD9A9D4">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=821,847" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_0B2AB389-D162-4074-92FE-9B8BDCD9A9D4 #CATMA_CF89A15C-C7A4-493E-8089-F8FCC518118F">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=847,860" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_0B2AB389-D162-4074-92FE-9B8BDCD9A9D4">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=860,1145" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=1145,1151" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_5B7EC1DD-8B1D-45D7-8C33-24EA2F74E85F #CATMA_F1E122D5-F869-45F4-80C9-971E393FF7C7 #CATMA_4A6B69ED-E7DA-4423-85F0-070B40964B08">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=1151,1156" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_5B7EC1DD-8B1D-45D7-8C33-24EA2F74E85F #CATMA_F1E122D5-F869-45F4-80C9-971E393FF7C7 #CATMA_4A6B69ED-E7DA-4423-85F0-070B40964B08 #CATMA_B450C5DD-43BF-4DB4-925E-5918DE545AA2 #CATMA_DEB1792C-C845-4912-9C6A-10EDF5D04771">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=1156,1177" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_5B7EC1DD-8B1D-45D7-8C33-24EA2F74E85F #CATMA_F1E122D5-F869-45F4-80C9-971E393FF7C7 #CATMA_4A6B69ED-E7DA-4423-85F0-070B40964B08">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=1177,1215" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_5B7EC1DD-8B1D-45D7-8C33-24EA2F74E85F #CATMA_F1E122D5-F869-45F4-80C9-971E393FF7C7 #CATMA_4A6B69ED-E7DA-4423-85F0-070B40964B08 #CATMA_FDB4F6E6-B0E3-4761-B70C-303DB1FE95E9">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=1215,1216" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_5B7EC1DD-8B1D-45D7-8C33-24EA2F74E85F #CATMA_FDB4F6E6-B0E3-4761-B70C-303DB1FE95E9">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=1216,1244" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_5B7EC1DD-8B1D-45D7-8C33-24EA2F74E85F">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=1244,1289" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_CF31A42C-CB92-46E8-B5F2-713B1B9E44AC">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=1289,1394" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_CF31A42C-CB92-46E8-B5F2-713B1B9E44AC #CATMA_5B182274-26E7-4132-BC6A-17B1ADAFA5C6 #CATMA_19AA5062-5E1E-4BEE-97C4-0A26336D01CE">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=1394,1414" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_CF31A42C-CB92-46E8-B5F2-713B1B9E44AC #CATMA_5B182274-26E7-4132-BC6A-17B1ADAFA5C6 #CATMA_745E9847-FC8F-4DFE-A0E1-53C3B692B7B6">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=1414,1439" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_CF31A42C-CB92-46E8-B5F2-713B1B9E44AC">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=1439,1561" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=1561,1562" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_79F6E2B8-FA85-43C6-8306-B2D8926B7325">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=1562,1569" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_79F6E2B8-FA85-43C6-8306-B2D8926B7325 #CATMA_CA718726-B9C7-47B6-BDFD-936DF210A782">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=1569,1593" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_79F6E2B8-FA85-43C6-8306-B2D8926B7325">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=1593,1665" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_2ADC8F08-67F9-435B-8CFE-9AAC8F09F4CD">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=1665,1666" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_2ADC8F08-67F9-435B-8CFE-9AAC8F09F4CD #CATMA_D2AE7E7A-36ED-4F36-B762-8421C000A1E3">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=1666,1667" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_2ADC8F08-67F9-435B-8CFE-9AAC8F09F4CD #CATMA_D2AE7E7A-36ED-4F36-B762-8421C000A1E3 #CATMA_45186B40-C801-4837-AFCA-96052CE26384 #CATMA_41C31F6C-E7F3-4CF1-B538-A84415383B49">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=1667,1694" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_2ADC8F08-67F9-435B-8CFE-9AAC8F09F4CD #CATMA_45186B40-C801-4837-AFCA-96052CE26384 #CATMA_41C31F6C-E7F3-4CF1-B538-A84415383B49 #CATMA_D1D543AD-950D-4BCE-A82E-2755BEBE2C27">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=1694,1722" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_2ADC8F08-67F9-435B-8CFE-9AAC8F09F4CD #CATMA_41C31F6C-E7F3-4CF1-B538-A84415383B49 #CATMA_D1D543AD-950D-4BCE-A82E-2755BEBE2C27">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=1722,1723" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_2ADC8F08-67F9-435B-8CFE-9AAC8F09F4CD #CATMA_41C31F6C-E7F3-4CF1-B538-A84415383B49">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=1723,1724" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_2ADC8F08-67F9-435B-8CFE-9AAC8F09F4CD #CATMA_41C31F6C-E7F3-4CF1-B538-A84415383B49 #CATMA_A063838C-C345-47D3-8646-4EEF10360BF7">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=1724,1781" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_2ADC8F08-67F9-435B-8CFE-9AAC8F09F4CD #CATMA_41C31F6C-E7F3-4CF1-B538-A84415383B49 #CATMA_A063838C-C345-47D3-8646-4EEF10360BF7 #CATMA_A284FB40-226A-463F-802A-D630C21993D1 #CATMA_D691DD0F-35FF-496C-A319-ACF0C969E80F">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=1781,1818" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_41C31F6C-E7F3-4CF1-B538-A84415383B49">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=1818,1892" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_41C31F6C-E7F3-4CF1-B538-A84415383B49 #CATMA_DADB6BC0-CFB3-4AA5-B278-16D2CB6A7558">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=1892,1893" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_41C31F6C-E7F3-4CF1-B538-A84415383B49 #CATMA_DADB6BC0-CFB3-4AA5-B278-16D2CB6A7558 #CATMA_EE2239A2-600C-4DDE-8545-FE4B8D5380A7 #CATMA_B74B26E7-977B-4796-9921-C211980F2B83">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=1893,1919" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_41C31F6C-E7F3-4CF1-B538-A84415383B49 #CATMA_DADB6BC0-CFB3-4AA5-B278-16D2CB6A7558 #CATMA_B74B26E7-977B-4796-9921-C211980F2B83">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=1919,1946" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_C186BBF9-B47A-4767-96B9-CAAADD806D2C">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=1946,1965" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_C186BBF9-B47A-4767-96B9-CAAADD806D2C #CATMA_28E008D3-F72B-437D-AC23-7B5BC8A22508">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=1965,1986" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_C186BBF9-B47A-4767-96B9-CAAADD806D2C">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=1986,2004" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_C186BBF9-B47A-4767-96B9-CAAADD806D2C #CATMA_E3086C1E-7E9F-4FE3-BC0A-391111387D0A">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=2004,2025" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_C186BBF9-B47A-4767-96B9-CAAADD806D2C">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=2025,2117" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_C186BBF9-B47A-4767-96B9-CAAADD806D2C #CATMA_68D86A03-CB82-486C-97E9-24FD48F4DD71">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=2117,2122" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_C186BBF9-B47A-4767-96B9-CAAADD806D2C">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=2122,2124" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_C186BBF9-B47A-4767-96B9-CAAADD806D2C #CATMA_9F22FF36-4D5A-45DE-BF1F-EFA7C909E7D3">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=2124,2138" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_C186BBF9-B47A-4767-96B9-CAAADD806D2C">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=2138,2161" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_C186BBF9-B47A-4767-96B9-CAAADD806D2C #CATMA_5DADE5E6-3810-4743-B00D-4EC443DD23A9">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=2161,2181" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_C186BBF9-B47A-4767-96B9-CAAADD806D2C">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=2181,2183" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_C186BBF9-B47A-4767-96B9-CAAADD806D2C #CATMA_D56F62E0-11B2-4470-B96F-138AF6DB47E3">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=2183,2235" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_AA1795D1-9EE7-402F-B9BA-889080D80A2C">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=2235,2363" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_AA1795D1-9EE7-402F-B9BA-889080D80A2C #CATMA_5AEE68A6-860C-4ABB-8273-1A97E857FCDA">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=2363,2504" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=2504,2508" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_53281CD9-333C-439C-B614-A9B087902562">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=2508,2519" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_53281CD9-333C-439C-B614-A9B087902562 #CATMA_801AF83B-BB81-466A-9591-6BEDED22E0BA #CATMA_277FCF71-63A7-4068-B7BD-48E5A12C0A57">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=2519,2524" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_53281CD9-333C-439C-B614-A9B087902562">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=2524,2645" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_CA4E3975-D94B-4A1E-AB36-F5DF03CCA652 #CATMA_5B4E053B-A915-4F77-861E-B6792A28E43A">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=2645,2835" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_CA4E3975-D94B-4A1E-AB36-F5DF03CCA652 #CATMA_5B4E053B-A915-4F77-861E-B6792A28E43A #CATMA_BB1C6F9D-25FC-4F9C-836E-82909A868736 #CATMA_1116CA3D-C1A6-48DB-AFD5-EF51D74FA381">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=2835,2879" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_CA4E3975-D94B-4A1E-AB36-F5DF03CCA652 #CATMA_5B4E053B-A915-4F77-861E-B6792A28E43A #CATMA_8527BA38-803B-4619-A538-484AAF0ECCE3">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=2879,3053" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_CA4E3975-D94B-4A1E-AB36-F5DF03CCA652 #CATMA_5B4E053B-A915-4F77-861E-B6792A28E43A #CATMA_8527BA38-803B-4619-A538-484AAF0ECCE3 #CATMA_EDBCD08B-FE7F-470B-8D2B-847953C4F447 #CATMA_BCF532FB-D196-4A7A-A8F4-266C74EA20E5">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=3053,3076" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_CA4E3975-D94B-4A1E-AB36-F5DF03CCA652 #CATMA_5B4E053B-A915-4F77-861E-B6792A28E43A #CATMA_8527BA38-803B-4619-A538-484AAF0ECCE3">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=3076,3095" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_CA4E3975-D94B-4A1E-AB36-F5DF03CCA652 #CATMA_5B4E053B-A915-4F77-861E-B6792A28E43A #CATMA_8527BA38-803B-4619-A538-484AAF0ECCE3 #CATMA_1E0DD518-4F70-4B5F-A18D-177CFA440331 #CATMA_FAB1630E-B813-4056-B765-D389496FCA93">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=3095,3116" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_CA4E3975-D94B-4A1E-AB36-F5DF03CCA652 #CATMA_5B4E053B-A915-4F77-861E-B6792A28E43A #CATMA_8527BA38-803B-4619-A538-484AAF0ECCE3">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=3116,3177" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_CA4E3975-D94B-4A1E-AB36-F5DF03CCA652 #CATMA_5B4E053B-A915-4F77-861E-B6792A28E43A #CATMA_8527BA38-803B-4619-A538-484AAF0ECCE3 #CATMA_F816E370-5E6B-4951-AEF6-AC9AAF6B739D #CATMA_A366F2C5-FAC8-4611-9834-9D61E9A5A2BC">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=3177,3238" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_CA4E3975-D94B-4A1E-AB36-F5DF03CCA652 #CATMA_5B4E053B-A915-4F77-861E-B6792A28E43A #CATMA_8527BA38-803B-4619-A538-484AAF0ECCE3 #CATMA_F816E370-5E6B-4951-AEF6-AC9AAF6B739D">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=3238,3239" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_CA4E3975-D94B-4A1E-AB36-F5DF03CCA652">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=3239,3240" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=3240,3242" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_7DF5C4ED-6B7F-4FE3-9AE5-84558B7E5F04">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=3242,3272" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_7DF5C4ED-6B7F-4FE3-9AE5-84558B7E5F04 #CATMA_DB929BBF-0BB4-493F-BB24-50A4709C8A3C #CATMA_953235E6-020D-4429-B803-FEA3AAD188C7">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=3272,3277" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_7DF5C4ED-6B7F-4FE3-9AE5-84558B7E5F04">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=3277,3893" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_7DF5C4ED-6B7F-4FE3-9AE5-84558B7E5F04 #CATMA_6D955E6A-ED6A-4B84-910D-42C825788C24">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=3893,3906" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_7DF5C4ED-6B7F-4FE3-9AE5-84558B7E5F04 #CATMA_6D955E6A-ED6A-4B84-910D-42C825788C24 #CATMA_FCFC6253-868D-4AA6-9340-F4A4C4283678">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=3906,3927" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=3927,3928" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_BDD08BA2-7342-4A93-A7F2-714EEEC1D5DF">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=3928,3931" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_BDD08BA2-7342-4A93-A7F2-714EEEC1D5DF #CATMA_C438E617-611A-41BA-8773-E7B57CE67688">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=3931,4060" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_BDD08BA2-7342-4A93-A7F2-714EEEC1D5DF #CATMA_C438E617-611A-41BA-8773-E7B57CE67688 #CATMA_2751628E-AE03-4B8D-948D-0DC04356FDA2">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=4060,4232" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_BDD08BA2-7342-4A93-A7F2-714EEEC1D5DF #CATMA_C438E617-611A-41BA-8773-E7B57CE67688">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=4232,4964" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_C438E617-611A-41BA-8773-E7B57CE67688">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=4964,4965" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=4965,4969" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_AE787E95-A94E-4BDC-BD3E-13633BE21ECC">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=4969,4982" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_AE787E95-A94E-4BDC-BD3E-13633BE21ECC #CATMA_D7D26ACD-CBA0-4637-ADC6-FB962B6E0F75">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=4982,4983" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_AE787E95-A94E-4BDC-BD3E-13633BE21ECC #CATMA_D7D26ACD-CBA0-4637-ADC6-FB962B6E0F75 #CATMA_47F5678A-6EA7-48CF-9183-992784B0982E">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=4983,4992" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_AE787E95-A94E-4BDC-BD3E-13633BE21ECC">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=4992,5068" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_AE787E95-A94E-4BDC-BD3E-13633BE21ECC #CATMA_C05CAE4E-D268-40A0-A7C1-0C6FC8DAF323">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=5068,5279" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_F6414C0B-24C3-48E8-9386-2E254EC9B65B">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=5279,5498" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_F6414C0B-24C3-48E8-9386-2E254EC9B65B #CATMA_98B2ABCC-0B35-44EE-BA7D-0C6809DD6265">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=5498,5513" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_F6414C0B-24C3-48E8-9386-2E254EC9B65B">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=5513,5598" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_F6414C0B-24C3-48E8-9386-2E254EC9B65B #CATMA_574D8F89-CB5D-4715-8F52-EA3C635B38B9 #CATMA_D75F730B-4D87-4933-A0DF-860D465D7B35">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=5598,5701" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_F6414C0B-24C3-48E8-9386-2E254EC9B65B">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=5701,5702" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=5702,5707" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_C3CA54CC-4378-45D6-899D-81F0705472B5">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=5707,5725" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_C3CA54CC-4378-45D6-899D-81F0705472B5 #CATMA_8EB6341E-2E4A-46B7-BFCE-91A92F3AB472 #CATMA_66FC3132-C9E8-44FB-9D17-E91CCCC24FEB">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=5725,5735" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_C3CA54CC-4378-45D6-899D-81F0705472B5 #CATMA_8EB6341E-2E4A-46B7-BFCE-91A92F3AB472">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=5735,5736" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_C3CA54CC-4378-45D6-899D-81F0705472B5 #CATMA_700202D1-07C1-46A4-89B2-9EDF69FD50DB #CATMA_96B10431-3366-4C68-925C-E7CE0BB1EDA9 #CATMA_8572AB8C-CB93-4C5E-AC43-75AE5B8FE5F7">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=5736,5834" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_C3CA54CC-4378-45D6-899D-81F0705472B5">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=5834,5835" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_C3CA54CC-4378-45D6-899D-81F0705472B5 #CATMA_EDB3FDE7-B7C3-4DAA-8F32-4E2E20A66A21 #CATMA_549AD515-7FBC-47D7-AC05-0FA760603BE2">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=5835,5870" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_C3CA54CC-4378-45D6-899D-81F0705472B5 #CATMA_2D239825-A63B-43D8-90F2-A937BD149E67 #CATMA_8810E7FF-6E33-4219-8F3B-A4B9DCBF93EE">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=5870,5974" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_C3CA54CC-4378-45D6-899D-81F0705472B5">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=5974,6201" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=6201,6204" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_C49F2ECB-354F-41C3-B11A-CA93EDA1DF10">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=6204,6254" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_C49F2ECB-354F-41C3-B11A-CA93EDA1DF10 #CATMA_E9825A2A-604A-4AC8-8A18-1D6D1F62795B">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=6254,6255" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_C49F2ECB-354F-41C3-B11A-CA93EDA1DF10 #CATMA_E9825A2A-604A-4AC8-8A18-1D6D1F62795B #CATMA_4B1BA72E-BC6A-4D2C-AD43-929D7911BF00">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=6255,6282" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_C49F2ECB-354F-41C3-B11A-CA93EDA1DF10 #CATMA_E9825A2A-604A-4AC8-8A18-1D6D1F62795B #CATMA_4B1BA72E-BC6A-4D2C-AD43-929D7911BF00 #CATMA_9DAC36A0-93B3-445E-BCE3-36A944AE7D66">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=6282,6283" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_C49F2ECB-354F-41C3-B11A-CA93EDA1DF10 #CATMA_9DAC36A0-93B3-445E-BCE3-36A944AE7D66 #CATMA_9FBD7B9D-F8FA-4596-A3A1-2F08F3B95841 #CATMA_0B215654-7C43-423C-9328-A608D266A049">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=6283,6449" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_C49F2ECB-354F-41C3-B11A-CA93EDA1DF10 #CATMA_847A08F2-9557-4E49-8022-1D789C1C6257">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=6449,7037" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=7037,7038" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_B14803A6-89A2-4AF6-893C-DDBF61627EA8">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=7038,7150" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_B14803A6-89A2-4AF6-893C-DDBF61627EA8 #CATMA_E9D6B9A2-0B17-401F-8EEC-326EAD5294E9">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=7150,7171" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_B14803A6-89A2-4AF6-893C-DDBF61627EA8">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=7171,7233" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=7233,7251" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_A5A33EF5-E94F-4E86-B7E9-7C2C7FED7415 #CATMA_49C4DDD1-D05D-4A88-B514-7521B4490B17">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=7251,7260" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_A5A33EF5-E94F-4E86-B7E9-7C2C7FED7415 #CATMA_49C4DDD1-D05D-4A88-B514-7521B4490B17 #CATMA_5A4A91CA-78D2-4D7B-B75A-48C55E21847B">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=7260,7261" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_A5A33EF5-E94F-4E86-B7E9-7C2C7FED7415 #CATMA_5A4A91CA-78D2-4D7B-B75A-48C55E21847B">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=7261,7262" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_5A4A91CA-78D2-4D7B-B75A-48C55E21847B">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=7262,7277" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_BCB97A66-C5CF-418A-B610-69170F217004 #CATMA_9DB897E8-7C24-4DE0-882E-39C18E001180 #CATMA_07DBEF9E-E64D-4DFE-8F3F-72AED7C0CBFA">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=7277,7349" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_9DB897E8-7C24-4DE0-882E-39C18E001180 #CATMA_07DBEF9E-E64D-4DFE-8F3F-72AED7C0CBFA">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=7349,7350" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_07DBEF9E-E64D-4DFE-8F3F-72AED7C0CBFA #CATMA_E372FB4D-5BF1-4C3D-A2B4-DBE9C6688EB9">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=7350,7431" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_9B6A23DC-7D9C-4B53-AAA0-49962071235A">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=7431,7505" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_9B6A23DC-7D9C-4B53-AAA0-49962071235A #CATMA_C3F9B455-24E8-4407-BCE5-AA4AE16A7BB9">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=7505,7522" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_9B6A23DC-7D9C-4B53-AAA0-49962071235A">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=7522,7547" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_D28BB645-2822-42E3-8C5D-65539EE6B7E5">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=7547,7566" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_D28BB645-2822-42E3-8C5D-65539EE6B7E5 #CATMA_1BF17E18-F169-4AD3-9A32-71DEE4679169">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=7566,7596" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_D28BB645-2822-42E3-8C5D-65539EE6B7E5">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=7596,7598" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_A5B439B7-4481-43C2-8674-1E3999CCF03A">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=7598,7677" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_A5B439B7-4481-43C2-8674-1E3999CCF03A #CATMA_CBCFCCB1-D6CB-497C-B5BC-1C9D99E03E26 #CATMA_6FF88A5B-251C-42FA-95BA-ECFE2D4EDA2B">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=7677,7740" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_CBCFCCB1-D6CB-497C-B5BC-1C9D99E03E26 #CATMA_6FF88A5B-251C-42FA-95BA-ECFE2D4EDA2B">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=7740,8091" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_6FF88A5B-251C-42FA-95BA-ECFE2D4EDA2B">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=8091,8092" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_6FF88A5B-251C-42FA-95BA-ECFE2D4EDA2B #CATMA_AA3D7079-4869-4CD0-89DC-60F7419D09C8">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=8092,8413" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_6FF88A5B-251C-42FA-95BA-ECFE2D4EDA2B #CATMA_AA3D7079-4869-4CD0-89DC-60F7419D09C8 #CATMA_CD32557E-1603-4595-84BA-EA194759E055">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=8413,8471" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_6FF88A5B-251C-42FA-95BA-ECFE2D4EDA2B #CATMA_AA3D7079-4869-4CD0-89DC-60F7419D09C8">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=8471,8521" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_22C4556C-86AD-4B35-B564-F1F4F74D39AF">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=8521,8534" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_22C4556C-86AD-4B35-B564-F1F4F74D39AF #CATMA_03A68171-E9D8-47D6-9FA3-B9712FE9589E #CATMA_40166085-65A2-4A6F-9859-27BA1D303391">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=8534,8539" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_22C4556C-86AD-4B35-B564-F1F4F74D39AF">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=8539,8569" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_22C4556C-86AD-4B35-B564-F1F4F74D39AF #CATMA_8828C703-6F4A-406B-B7A8-AB000D12E258">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=8569,8570" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_22C4556C-86AD-4B35-B564-F1F4F74D39AF #CATMA_8828C703-6F4A-406B-B7A8-AB000D12E258 #CATMA_AAB1C340-0588-4FCE-9831-31930B30972C">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=8570,8708" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=8708,8712" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_E5F58F80-9324-4FC8-864A-9ADB0D032A87">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=8712,8839" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_E5F58F80-9324-4FC8-864A-9ADB0D032A87 #CATMA_3DADD642-F446-4FB6-BFB5-355A42AE5DC6">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=8839,9090" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_E5F58F80-9324-4FC8-864A-9ADB0D032A87">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=9090,9214" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_E5F58F80-9324-4FC8-864A-9ADB0D032A87 #CATMA_92121EDA-EF9D-4F5B-B6A3-22DDB7983CB7 #CATMA_53B92B41-29B1-4CED-A20D-F08A52E1F2FE">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=9214,9332" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_E5F58F80-9324-4FC8-864A-9ADB0D032A87">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=9332,9361" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_E5F58F80-9324-4FC8-864A-9ADB0D032A87 #CATMA_8008514E-71B7-4C0A-AC98-0600E7A4C887">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=9361,9378" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC #CATMA_E5F58F80-9324-4FC8-864A-9ADB0D032A87">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=9378,9434" type="inclusion"/>
+                </seg>
+                <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=9434,9439" type="inclusion"/>
+                <seg ana="#CATMA_A25F605F-5835-44AB-94C6-197DB4147AE9 #CATMA_EA2695B4-C854-4064-8A89-15EB82756B82 #CATMA_F0C7311E-ACA0-4FA2-804D-5D7BA5EA90B3">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=9439,9484" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_2C0310EB-1518-44DC-85BB-9C45B9A2BF7F #CATMA_F121F0D3-3D1C-4F57-8BAD-73B92B10CBBB #CATMA_C1412309-3E04-4B8B-9CD4-CA7235C22AF7 #CATMA_90448C27-EF6C-4506-89C8-FF9BE65557DD">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=9484,9495" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_2C0310EB-1518-44DC-85BB-9C45B9A2BF7F #CATMA_F121F0D3-3D1C-4F57-8BAD-73B92B10CBBB #CATMA_C1412309-3E04-4B8B-9CD4-CA7235C22AF7 #CATMA_90448C27-EF6C-4506-89C8-FF9BE65557DD #CATMA_30AC6EAE-71CE-45C6-805E-76032BDD22CB #CATMA_ECC05C0A-B7FD-42D0-9F94-55539FC0B8D4">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=9495,9510" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_2C0310EB-1518-44DC-85BB-9C45B9A2BF7F #CATMA_F121F0D3-3D1C-4F57-8BAD-73B92B10CBBB #CATMA_90448C27-EF6C-4506-89C8-FF9BE65557DD">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=9510,9597" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_82678DCB-BEAC-4EE2-BC8B-00C672927E31 #CATMA_515FFD3C-AFB3-47B5-AEA6-9A0E2D36B546">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=9597,9600" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_82678DCB-BEAC-4EE2-BC8B-00C672927E31 #CATMA_515FFD3C-AFB3-47B5-AEA6-9A0E2D36B546 #CATMA_9CA80FC5-340F-422C-9D33-210B44A997A0">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=9600,9620" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_82678DCB-BEAC-4EE2-BC8B-00C672927E31 #CATMA_515FFD3C-AFB3-47B5-AEA6-9A0E2D36B546">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=9620,9621" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_82678DCB-BEAC-4EE2-BC8B-00C672927E31 #CATMA_515FFD3C-AFB3-47B5-AEA6-9A0E2D36B546 #CATMA_792C0710-2EC3-460F-AD24-B970ECFBBBE9">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=9621,9659" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_82678DCB-BEAC-4EE2-BC8B-00C672927E31 #CATMA_515FFD3C-AFB3-47B5-AEA6-9A0E2D36B546">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=9659,9660" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_82678DCB-BEAC-4EE2-BC8B-00C672927E31 #CATMA_515FFD3C-AFB3-47B5-AEA6-9A0E2D36B546 #CATMA_5A43DCAB-CCCE-41BD-ABA5-77A00289185B">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=9660,9690" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_82678DCB-BEAC-4EE2-BC8B-00C672927E31 #CATMA_515FFD3C-AFB3-47B5-AEA6-9A0E2D36B546 #CATMA_85B8FF3F-06A5-4877-B053-881FCA5F74BF">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=9690,9921" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_82678DCB-BEAC-4EE2-BC8B-00C672927E31 #CATMA_515FFD3C-AFB3-47B5-AEA6-9A0E2D36B546">
+                    <ptr target="D_7CBBF86A-A8EB-4F25-9358-D94B60C328B5#char=9921,10024" type="inclusion"/>
+                </seg>
+            </ab>
+        </body>
+        <fs xml:id="CATMA_8B81F9A3-CE53-4790-B696-248232C3C14F" type="CATMA_A6623BBE-E39F-40C7-B2E7-DFEFB6F56237">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-07T17:04:10.297+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-138451</string>
+            </f>
+            <f name="following__listening__marking"/>
+        </fs>
+        <fs xml:id="CATMA_8864229F-9ECE-4590-9348-B546DAE2229B" type="CATMA_6E376977-1E03-44E9-860A-0B1C90F8568D">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-07T17:03:54.928+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-7906388</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_B459D054-5E3B-4508-A640-9B6CB98584B9" type="CATMA_253FA625-1966-430C-943B-112B92D09DB8">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-07T17:04:01.269+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-7187192</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_EC6D4CA6-2DE2-4CA2-AF93-962E70C8361C" type="CATMA_8078A771-B9D3-4BCC-BF06-7B7DEB0645A8">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-07T17:04:16.335+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-1906976</string>
+            </f>
+            <f name="direct_characterization__titles__names"/>
+        </fs>
+        <fs xml:id="CATMA_023D5D42-9EE6-453D-AC43-BEDC27474A24" type="CATMA_AC7F13B5-D6A5-4360-9C0B-515FBE274BDF">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-07T17:04:34.684+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-2803988</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_949662B2-5E9B-4008-A0AF-AE59E7CFA917" type="CATMA_7D5B4E86-D04A-4E36-8961-F49A374019EA">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-07T17:04:23.248+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-8878447</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_8386E484-7F15-4D15-9D3F-E2313744D781" type="CATMA_ECB3B71C-8C4D-4E4E-BCF4-124653C915BB">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-07T17:04:45.035+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-11203455</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_62C4D378-2969-441F-A8ED-96B8D4656E89" type="CATMA_BC1E6BF1-6F7D-4711-A94F-C560FF94D083">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-07T17:04:54.668+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-12269129</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_5EDCF3F1-7F06-4AE9-B305-7A8E057329FC" type="CATMA_4A728083-DC42-4CA5-AD39-52363C41BE17">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:06:47.185+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-13064213</string>
+            </f>
+            <f name="farewell_address___oral__speech"/>
+        </fs>
+        <fs xml:id="CATMA_0B2AB389-D162-4074-92FE-9B8BDCD9A9D4" type="CATMA_DC991E6D-36EC-4E60-B19B-677ACA5DBCA0">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:12:32.414+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-4802607</string>
+            </f>
+            <f name="biographical_historical_retrospective"/>
+        </fs>
+        <fs xml:id="CATMA_4BD0F0D3-9F75-4A42-9E26-17B4B66B36FF" type="CATMA_AC7F13B5-D6A5-4360-9C0B-515FBE274BDF">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:08:39.462+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-2803988</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_F4A35605-58CB-4267-94B6-62F09751DFF5" type="CATMA_AC7F13B5-D6A5-4360-9C0B-515FBE274BDF">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:08:42.785+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-2803988</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_7434F39E-6944-4F56-9A13-C631D2C7E223" type="CATMA_8078A771-B9D3-4BCC-BF06-7B7DEB0645A8">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:08:49.554+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-1906976</string>
+            </f>
+            <f name="direct_characterization__titles__names"/>
+        </fs>
+        <fs xml:id="CATMA_BE8D032A-2D91-48AB-BA8B-D50B7A668F1E" type="CATMA_AC7F13B5-D6A5-4360-9C0B-515FBE274BDF">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:08:44.928+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-2803988</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_D59CB20D-A727-46AF-B1ED-934BB4AD47D7" type="CATMA_AC7F13B5-D6A5-4360-9C0B-515FBE274BDF">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:08:55.006+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-2803988</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_651E2C9E-CD87-4674-BF97-96A5C8263D74" type="CATMA_AC7F13B5-D6A5-4360-9C0B-515FBE274BDF">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:08:58.083+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-2803988</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_6A6AB73B-494C-4F91-A9B3-6F91A3854815" type="CATMA_AC7F13B5-D6A5-4360-9C0B-515FBE274BDF">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:09:00.490+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-2803988</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_04446341-A648-4593-A879-7B70CA903F45" type="CATMA_AC7F13B5-D6A5-4360-9C0B-515FBE274BDF">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:09:16.812+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-2803988</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_F8A2A65D-98A0-443E-9C7C-C6806800D765" type="CATMA_A0F4463A-2F40-492C-8087-51C148D5C962">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:09:33.657+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-10825817</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_D61D2638-EA6D-4F85-BEAA-F5C07B449637" type="CATMA_AC7F13B5-D6A5-4360-9C0B-515FBE274BDF">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:09:28.232+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-2803988</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_F8E76A17-59AA-4FB9-9165-912433125CA0" type="CATMA_8078A771-B9D3-4BCC-BF06-7B7DEB0645A8">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:08:25.549+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-1906976</string>
+            </f>
+            <f name="direct_characterization__titles__names"/>
+        </fs>
+        <fs xml:id="CATMA_4BDF3438-3576-4B8F-B54E-3A4E63BBE0E2" type="CATMA_AC7F13B5-D6A5-4360-9C0B-515FBE274BDF">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:11:20.897+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-2803988</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_D7EF9B85-1F29-49D2-9519-27A143A91E0F" type="CATMA_AC7F13B5-D6A5-4360-9C0B-515FBE274BDF">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:11:32.880+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-2803988</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_929B3A62-C6B1-427B-A43A-19EA832EC2B4" type="CATMA_AC7F13B5-D6A5-4360-9C0B-515FBE274BDF">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:11:53.895+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-2803988</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_CF89A15C-C7A4-493E-8089-F8FCC518118F" type="CATMA_AC7F13B5-D6A5-4360-9C0B-515FBE274BDF">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:12:09.577+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-2803988</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_5B7EC1DD-8B1D-45D7-8C33-24EA2F74E85F" type="CATMA_498D245F-9E9C-45AD-A76F-7707727BC69F">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:13:47.988+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-2182121</string>
+            </f>
+            <f name="parenetical_ethical_content"/>
+        </fs>
+        <fs xml:id="CATMA_F1E122D5-F869-45F4-80C9-971E393FF7C7" type="CATMA_CD4670C4-637B-413F-BB43-AA62FBCF8647">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:13:22.731+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-11991287</string>
+            </f>
+            <f name="_double__love_command"/>
+        </fs>
+        <fs xml:id="CATMA_4A6B69ED-E7DA-4423-85F0-070B40964B08" type="CATMA_5A910BFB-CA4B-4E95-9089-BF9B8D8CF546">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:13:27.261+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-14856318</string>
+            </f>
+            <f name="relationship_to_God__awe__love__cultic_practices_etc._"/>
+        </fs>
+        <fs xml:id="CATMA_B450C5DD-43BF-4DB4-925E-5918DE545AA2" type="CATMA_AC7F13B5-D6A5-4360-9C0B-515FBE274BDF">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:13:07.059+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-2803988</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_DEB1792C-C845-4912-9C6A-10EDF5D04771" type="CATMA_7D5B4E86-D04A-4E36-8961-F49A374019EA">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:13:02.310+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-8878447</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_FDB4F6E6-B0E3-4761-B70C-303DB1FE95E9" type="CATMA_BE9211A3-E16E-4633-A1F9-49DDD88B4AE3">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:13:35.738+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-2238829</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_CF31A42C-CB92-46E8-B5F2-713B1B9E44AC" type="CATMA_498D245F-9E9C-45AD-A76F-7707727BC69F">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:25:45.989+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-2182121</string>
+            </f>
+            <f name="parenetical_ethical_content"/>
+        </fs>
+        <fs xml:id="CATMA_5B182274-26E7-4132-BC6A-17B1ADAFA5C6" type="CATMA_CD4670C4-637B-413F-BB43-AA62FBCF8647">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:15:55.383+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-11991287</string>
+            </f>
+            <f name="_double__love_command"/>
+        </fs>
+        <fs xml:id="CATMA_19AA5062-5E1E-4BEE-97C4-0A26336D01CE" type="CATMA_5A910BFB-CA4B-4E95-9089-BF9B8D8CF546">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:16:01.767+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-14856318</string>
+            </f>
+            <f name="relationship_to_God__awe__love__cultic_practices_etc._"/>
+        </fs>
+        <fs xml:id="CATMA_745E9847-FC8F-4DFE-A0E1-53C3B692B7B6" type="CATMA_A6ABF936-99A0-4412-9C14-23740CCE91FD">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:16:07.356+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-618686</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_79F6E2B8-FA85-43C6-8306-B2D8926B7325" type="CATMA_DC991E6D-36EC-4E60-B19B-677ACA5DBCA0">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:28:40.025+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-4802607</string>
+            </f>
+            <f name="biographical_historical_retrospective"/>
+        </fs>
+        <fs xml:id="CATMA_CA718726-B9C7-47B6-BDFD-936DF210A782" type="CATMA_AC7F13B5-D6A5-4360-9C0B-515FBE274BDF">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:26:05.151+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-2803988</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_2ADC8F08-67F9-435B-8CFE-9AAC8F09F4CD" type="CATMA_ACE0E7EB-0E74-4845-B257-475B9B6FE9F1">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:26:42.392+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-8168132</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_D2AE7E7A-36ED-4F36-B762-8421C000A1E3" type="CATMA_5A910BFB-CA4B-4E95-9089-BF9B8D8CF546">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:26:56.889+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-14856318</string>
+            </f>
+            <f name="relationship_to_God__awe__love__cultic_practices_etc._"/>
+        </fs>
+        <fs xml:id="CATMA_45186B40-C801-4837-AFCA-96052CE26384" type="CATMA_CD4670C4-637B-413F-BB43-AA62FBCF8647">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:26:49.243+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-11991287</string>
+            </f>
+            <f name="_double__love_command"/>
+        </fs>
+        <fs xml:id="CATMA_41C31F6C-E7F3-4CF1-B538-A84415383B49" type="CATMA_498D245F-9E9C-45AD-A76F-7707727BC69F">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:28:50.244+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-2182121</string>
+            </f>
+            <f name="parenetical_ethical_content"/>
+        </fs>
+        <fs xml:id="CATMA_D1D543AD-950D-4BCE-A82E-2755BEBE2C27" type="CATMA_A6ABF936-99A0-4412-9C14-23740CCE91FD">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:27:04.812+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-618686</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_A063838C-C345-47D3-8646-4EEF10360BF7" type="CATMA_0585DDD8-9BED-4F96-8EE6-4DFABD06235A">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-31T17:49:52.233+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-12232914</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_A284FB40-226A-463F-802A-D630C21993D1" type="CATMA_CD4670C4-637B-413F-BB43-AA62FBCF8647">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:27:45.923+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-11991287</string>
+            </f>
+            <f name="_double__love_command"/>
+        </fs>
+        <fs xml:id="CATMA_D691DD0F-35FF-496C-A319-ACF0C969E80F" type="CATMA_5A910BFB-CA4B-4E95-9089-BF9B8D8CF546">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:27:53.154+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-14856318</string>
+            </f>
+            <f name="relationship_to_God__awe__love__cultic_practices_etc._"/>
+        </fs>
+        <fs xml:id="CATMA_DADB6BC0-CFB3-4AA5-B278-16D2CB6A7558" type="CATMA_CD4670C4-637B-413F-BB43-AA62FBCF8647">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:28:02.898+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-11991287</string>
+            </f>
+            <f name="_double__love_command"/>
+        </fs>
+        <fs xml:id="CATMA_EE2239A2-600C-4DDE-8545-FE4B8D5380A7" type="CATMA_5A910BFB-CA4B-4E95-9089-BF9B8D8CF546">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-31T17:50:12.578+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-14856318</string>
+            </f>
+            <f name="relationship_to_God__awe__love__cultic_practices_etc._"/>
+        </fs>
+        <fs xml:id="CATMA_B74B26E7-977B-4796-9921-C211980F2B83" type="CATMA_A6ABF936-99A0-4412-9C14-23740CCE91FD">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:28:07.248+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-618686</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_C186BBF9-B47A-4767-96B9-CAAADD806D2C" type="CATMA_DC991E6D-36EC-4E60-B19B-677ACA5DBCA0">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:30:24.576+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-4802607</string>
+            </f>
+            <f name="biographical_historical_retrospective"/>
+        </fs>
+        <fs xml:id="CATMA_28E008D3-F72B-437D-AC23-7B5BC8A22508" type="CATMA_AC7F13B5-D6A5-4360-9C0B-515FBE274BDF">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:29:17.375+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-2803988</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_E3086C1E-7E9F-4FE3-BC0A-391111387D0A" type="CATMA_AC7F13B5-D6A5-4360-9C0B-515FBE274BDF">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:29:22.659+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-2803988</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_68D86A03-CB82-486C-97E9-24FD48F4DD71" type="CATMA_AC7F13B5-D6A5-4360-9C0B-515FBE274BDF">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:29:33.720+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-2803988</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_9F22FF36-4D5A-45DE-BF1F-EFA7C909E7D3" type="CATMA_AC7F13B5-D6A5-4360-9C0B-515FBE274BDF">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:29:37.677+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-2803988</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_5DADE5E6-3810-4743-B00D-4EC443DD23A9" type="CATMA_AC7F13B5-D6A5-4360-9C0B-515FBE274BDF">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:29:55.157+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-2803988</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_D56F62E0-11B2-4470-B96F-138AF6DB47E3" type="CATMA_A0F4463A-2F40-492C-8087-51C148D5C962">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:30:16.659+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-10825817</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_AA1795D1-9EE7-402F-B9BA-889080D80A2C" type="CATMA_3B4FD37E-39DC-40A6-A3FB-0A5E5BC3AFA3">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:30:39.664+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-9370377</string>
+            </f>
+            <f name="final_judgement"/>
+            <f name="wages"/>
+            <f name="punishment"/>
+            <f name="treasure"/>
+        </fs>
+        <fs xml:id="CATMA_5AEE68A6-860C-4ABB-8273-1A97E857FCDA" type="CATMA_C795D5F8-A239-4997-B50C-B7F4E5880D97">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-31T17:50:41.551+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-9628849</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_53281CD9-333C-439C-B614-A9B087902562" type="CATMA_498D245F-9E9C-45AD-A76F-7707727BC69F">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:34:09.286+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-2182121</string>
+            </f>
+            <f name="parenetical_ethical_content"/>
+        </fs>
+        <fs xml:id="CATMA_801AF83B-BB81-466A-9591-6BEDED22E0BA" type="CATMA_7D5B4E86-D04A-4E36-8961-F49A374019EA">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:31:25.468+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-8878447</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_277FCF71-63A7-4068-B7BD-48E5A12C0A57" type="CATMA_AC7F13B5-D6A5-4360-9C0B-515FBE274BDF">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:31:29.050+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-2803988</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_CA4E3975-D94B-4A1E-AB36-F5DF03CCA652" type="CATMA_0585DDD8-9BED-4F96-8EE6-4DFABD06235A">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:34:39.510+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-12232914</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_5B4E053B-A915-4F77-861E-B6792A28E43A" type="CATMA_498D245F-9E9C-45AD-A76F-7707727BC69F">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:34:46.843+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-2182121</string>
+            </f>
+            <f name="parenetical_ethical_content"/>
+        </fs>
+        <fs xml:id="CATMA_BB1C6F9D-25FC-4F9C-836E-82909A868736" type="CATMA_A6ABF936-99A0-4412-9C14-23740CCE91FD">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:35:19.811+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-618686</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_1116CA3D-C1A6-48DB-AFD5-EF51D74FA381" type="CATMA_CD4670C4-637B-413F-BB43-AA62FBCF8647">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:35:14.474+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-11991287</string>
+            </f>
+            <f name="_double__love_command"/>
+        </fs>
+        <fs xml:id="CATMA_8527BA38-803B-4619-A538-484AAF0ECCE3" type="CATMA_F6068797-C6FC-48E5-9457-4C1EF8E7F6A1">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:36:01.735+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-9848457</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_EDBCD08B-FE7F-470B-8D2B-847953C4F447" type="CATMA_5A910BFB-CA4B-4E95-9089-BF9B8D8CF546">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:36:27.380+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-14856318</string>
+            </f>
+            <f name="relationship_to_God__awe__love__cultic_practices_etc._"/>
+        </fs>
+        <fs xml:id="CATMA_BCF532FB-D196-4A7A-A8F4-266C74EA20E5" type="CATMA_CD4670C4-637B-413F-BB43-AA62FBCF8647">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:36:21.371+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-11991287</string>
+            </f>
+            <f name="_double__love_command"/>
+        </fs>
+        <fs xml:id="CATMA_1E0DD518-4F70-4B5F-A18D-177CFA440331" type="CATMA_CD4670C4-637B-413F-BB43-AA62FBCF8647">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:36:48.497+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-11991287</string>
+            </f>
+            <f name="_double__love_command"/>
+        </fs>
+        <fs xml:id="CATMA_FAB1630E-B813-4056-B765-D389496FCA93" type="CATMA_5A910BFB-CA4B-4E95-9089-BF9B8D8CF546">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:36:42.155+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-14856318</string>
+            </f>
+            <f name="relationship_to_God__awe__love__cultic_practices_etc._"/>
+        </fs>
+        <fs xml:id="CATMA_F816E370-5E6B-4951-AEF6-AC9AAF6B739D" type="CATMA_CD4670C4-637B-413F-BB43-AA62FBCF8647">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:37:12.086+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-11991287</string>
+            </f>
+            <f name="_double__love_command"/>
+        </fs>
+        <fs xml:id="CATMA_A366F2C5-FAC8-4611-9834-9D61E9A5A2BC" type="CATMA_A6ABF936-99A0-4412-9C14-23740CCE91FD">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:37:07.261+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-618686</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_7DF5C4ED-6B7F-4FE3-9AE5-84558B7E5F04" type="CATMA_ACE0E7EB-0E74-4845-B257-475B9B6FE9F1">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T16:00:09.633+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-8168132</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_DB929BBF-0BB4-493F-BB24-50A4709C8A3C" type="CATMA_7D5B4E86-D04A-4E36-8961-F49A374019EA">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:38:12.759+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-8878447</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_953235E6-020D-4429-B803-FEA3AAD188C7" type="CATMA_AC7F13B5-D6A5-4360-9C0B-515FBE274BDF">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:38:15.626+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-2803988</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_6D955E6A-ED6A-4B84-910D-42C825788C24" type="CATMA_DC991E6D-36EC-4E60-B19B-677ACA5DBCA0">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T16:00:18.863+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-4802607</string>
+            </f>
+            <f name="biographical_historical_retrospective"/>
+        </fs>
+        <fs xml:id="CATMA_FCFC6253-868D-4AA6-9340-F4A4C4283678" type="CATMA_AC7F13B5-D6A5-4360-9C0B-515FBE274BDF">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-31T17:51:19.624+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-2803988</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_BDD08BA2-7342-4A93-A7F2-714EEEC1D5DF" type="CATMA_0585DDD8-9BED-4F96-8EE6-4DFABD06235A">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T16:03:05.905+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-12232914</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_C438E617-611A-41BA-8773-E7B57CE67688" type="CATMA_498D245F-9E9C-45AD-A76F-7707727BC69F">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T16:03:15.312+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-2182121</string>
+            </f>
+            <f name="parenetical_ethical_content"/>
+        </fs>
+        <fs xml:id="CATMA_2751628E-AE03-4B8D-948D-0DC04356FDA2" type="CATMA_93E5B3C2-DB73-4A58-BB17-14314BFF0132">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-31T17:52:01.838+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-6121226</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_AE787E95-A94E-4BDC-BD3E-13633BE21ECC" type="CATMA_498D245F-9E9C-45AD-A76F-7707727BC69F">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T16:04:21.319+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-2182121</string>
+            </f>
+            <f name="parenetical_ethical_content"/>
+        </fs>
+        <fs xml:id="CATMA_D7D26ACD-CBA0-4637-ADC6-FB962B6E0F75" type="CATMA_7D5B4E86-D04A-4E36-8961-F49A374019EA">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T16:03:31.921+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-8878447</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_47F5678A-6EA7-48CF-9183-992784B0982E" type="CATMA_AC7F13B5-D6A5-4360-9C0B-515FBE274BDF">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T16:03:35.842+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-2803988</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_C05CAE4E-D268-40A0-A7C1-0C6FC8DAF323" type="CATMA_1EFB5BA1-BD27-4D19-B546-E10C45E47E04">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-31T17:52:49.372+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-10763045</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_F6414C0B-24C3-48E8-9386-2E254EC9B65B" type="CATMA_DC991E6D-36EC-4E60-B19B-677ACA5DBCA0">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T16:05:02.186+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-4802607</string>
+            </f>
+            <f name="biographical_historical_retrospective"/>
+        </fs>
+        <fs xml:id="CATMA_98B2ABCC-0B35-44EE-BA7D-0C6809DD6265" type="CATMA_AC7F13B5-D6A5-4360-9C0B-515FBE274BDF">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T16:05:14.880+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-2803988</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_574D8F89-CB5D-4715-8F52-EA3C635B38B9" type="CATMA_A0F4463A-2F40-492C-8087-51C148D5C962">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T16:05:35.457+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-10825817</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_D75F730B-4D87-4933-A0DF-860D465D7B35" type="CATMA_3B4FD37E-39DC-40A6-A3FB-0A5E5BC3AFA3">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-31T17:53:02.661+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-9370377</string>
+            </f>
+            <f name="final_judgement"/>
+            <f name="wages"/>
+            <f name="punishment"/>
+            <f name="treasure"/>
+        </fs>
+        <fs xml:id="CATMA_C3CA54CC-4378-45D6-899D-81F0705472B5" type="CATMA_498D245F-9E9C-45AD-A76F-7707727BC69F">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T16:06:11.513+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-2182121</string>
+            </f>
+            <f name="parenetical_ethical_content"/>
+        </fs>
+        <fs xml:id="CATMA_8EB6341E-2E4A-46B7-BFCE-91A92F3AB472" type="CATMA_AC7F13B5-D6A5-4360-9C0B-515FBE274BDF">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T16:05:43.098+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-2803988</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_66FC3132-C9E8-44FB-9D17-E91CCCC24FEB" type="CATMA_7D5B4E86-D04A-4E36-8961-F49A374019EA">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T16:05:48.400+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-8878447</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_700202D1-07C1-46A4-89B2-9EDF69FD50DB" type="CATMA_A6ABF936-99A0-4412-9C14-23740CCE91FD">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T16:06:36.062+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-618686</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_96B10431-3366-4C68-925C-E7CE0BB1EDA9" type="CATMA_CD4670C4-637B-413F-BB43-AA62FBCF8647">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T16:06:32.201+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-11991287</string>
+            </f>
+            <f name="_double__love_command"/>
+        </fs>
+        <fs xml:id="CATMA_8572AB8C-CB93-4C5E-AC43-75AE5B8FE5F7" type="CATMA_A0F4463A-2F40-492C-8087-51C148D5C962">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T16:06:27.356+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-10825817</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_EDB3FDE7-B7C3-4DAA-8F32-4E2E20A66A21" type="CATMA_A6ABF936-99A0-4412-9C14-23740CCE91FD">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T16:06:52.968+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-618686</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_549AD515-7FBC-47D7-AC05-0FA760603BE2" type="CATMA_CD4670C4-637B-413F-BB43-AA62FBCF8647">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T16:06:57.440+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-11991287</string>
+            </f>
+            <f name="_double__love_command"/>
+        </fs>
+        <fs xml:id="CATMA_2D239825-A63B-43D8-90F2-A937BD149E67" type="CATMA_C3046FEA-DAA7-4B4D-B736-A778748E23D9">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T16:07:13.865+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-3787722</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_8810E7FF-6E33-4219-8F3B-A4B9DCBF93EE" type="CATMA_93E5B3C2-DB73-4A58-BB17-14314BFF0132">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T16:07:10.342+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-6121226</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_C49F2ECB-354F-41C3-B11A-CA93EDA1DF10" type="CATMA_3B4FD37E-39DC-40A6-A3FB-0A5E5BC3AFA3">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T16:17:26.084+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-9370377</string>
+            </f>
+            <f name="final_judgement"/>
+            <f name="wages"/>
+            <f name="punishment"/>
+            <f name="treasure"/>
+        </fs>
+        <fs xml:id="CATMA_E9825A2A-604A-4AC8-8A18-1D6D1F62795B" type="CATMA_A6623BBE-E39F-40C7-B2E7-DFEFB6F56237">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T16:07:50.755+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-138451</string>
+            </f>
+            <f name="following__listening__marking"/>
+        </fs>
+        <fs xml:id="CATMA_4B1BA72E-BC6A-4D2C-AD43-929D7911BF00" type="CATMA_BE9211A3-E16E-4633-A1F9-49DDD88B4AE3">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T16:07:56.324+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-2238829</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_9DAC36A0-93B3-445E-BCE3-36A944AE7D66" type="CATMA_498D245F-9E9C-45AD-A76F-7707727BC69F">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T16:18:45.594+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-2182121</string>
+            </f>
+            <f name="parenetical_ethical_content"/>
+        </fs>
+        <fs xml:id="CATMA_9FBD7B9D-F8FA-4596-A3A1-2F08F3B95841" type="CATMA_1EFB5BA1-BD27-4D19-B546-E10C45E47E04">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-31T17:53:43.578+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-10763045</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_0B215654-7C43-423C-9328-A608D266A049" type="CATMA_93E5B3C2-DB73-4A58-BB17-14314BFF0132">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T16:18:52.293+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-6121226</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_847A08F2-9557-4E49-8022-1D789C1C6257" type="CATMA_0585DDD8-9BED-4F96-8EE6-4DFABD06235A">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T16:19:57.656+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-12232914</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_B14803A6-89A2-4AF6-893C-DDBF61627EA8" type="CATMA_DC991E6D-36EC-4E60-B19B-677ACA5DBCA0">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T16:22:26.645+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-4802607</string>
+            </f>
+            <f name="biographical_historical_retrospective"/>
+        </fs>
+        <fs xml:id="CATMA_E9D6B9A2-0B17-401F-8EEC-326EAD5294E9" type="CATMA_AC7F13B5-D6A5-4360-9C0B-515FBE274BDF">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-31T17:54:04.715+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-2803988</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_A5A33EF5-E94F-4E86-B7E9-7C2C7FED7415" type="CATMA_7D5B4E86-D04A-4E36-8961-F49A374019EA">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T16:22:38.564+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-8878447</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_49C4DDD1-D05D-4A88-B514-7521B4490B17" type="CATMA_AC7F13B5-D6A5-4360-9C0B-515FBE274BDF">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T16:22:42.446+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-2803988</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_5A4A91CA-78D2-4D7B-B75A-48C55E21847B" type="CATMA_E59B33AC-636C-4B87-A89D-DA0562830074">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T16:22:35.120+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-2404688</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_BCB97A66-C5CF-418A-B610-69170F217004" type="CATMA_CD4670C4-637B-413F-BB43-AA62FBCF8647">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T16:23:14.288+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-11991287</string>
+            </f>
+            <f name="_double__love_command"/>
+        </fs>
+        <fs xml:id="CATMA_9DB897E8-7C24-4DE0-882E-39C18E001180" type="CATMA_A6ABF936-99A0-4412-9C14-23740CCE91FD">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T16:23:21.058+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-618686</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_07DBEF9E-E64D-4DFE-8F3F-72AED7C0CBFA" type="CATMA_A6623BBE-E39F-40C7-B2E7-DFEFB6F56237">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T16:23:37.841+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-138451</string>
+            </f>
+            <f name="following__listening__marking"/>
+        </fs>
+        <fs xml:id="CATMA_E372FB4D-5BF1-4C3D-A2B4-DBE9C6688EB9" type="CATMA_BE9211A3-E16E-4633-A1F9-49DDD88B4AE3">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T16:23:32.096+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-2238829</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_9B6A23DC-7D9C-4B53-AAA0-49962071235A" type="CATMA_A6623BBE-E39F-40C7-B2E7-DFEFB6F56237">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T16:28:56.019+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-138451</string>
+            </f>
+            <f name="following__listening__marking"/>
+        </fs>
+        <fs xml:id="CATMA_C3F9B455-24E8-4407-BCE5-AA4AE16A7BB9" type="CATMA_AC7F13B5-D6A5-4360-9C0B-515FBE274BDF">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-31T17:54:27.208+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-2803988</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_D28BB645-2822-42E3-8C5D-65539EE6B7E5" type="CATMA_DC991E6D-36EC-4E60-B19B-677ACA5DBCA0">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T16:30:51.117+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-4802607</string>
+            </f>
+            <f name="biographical_historical_retrospective"/>
+        </fs>
+        <fs xml:id="CATMA_1BF17E18-F169-4AD3-9A32-71DEE4679169" type="CATMA_AC7F13B5-D6A5-4360-9C0B-515FBE274BDF">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T16:30:43.784+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-2803988</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_A5B439B7-4481-43C2-8674-1E3999CCF03A" type="CATMA_BE9211A3-E16E-4633-A1F9-49DDD88B4AE3">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T16:31:38.703+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-2238829</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_CBCFCCB1-D6CB-497C-B5BC-1C9D99E03E26" type="CATMA_0585DDD8-9BED-4F96-8EE6-4DFABD06235A">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T16:33:58.419+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-12232914</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_6FF88A5B-251C-42FA-95BA-ECFE2D4EDA2B" type="CATMA_3B4FD37E-39DC-40A6-A3FB-0A5E5BC3AFA3">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T16:33:43.827+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-9370377</string>
+            </f>
+            <f name="final_judgement"/>
+            <f name="wages"/>
+            <f name="punishment"/>
+            <f name="treasure"/>
+        </fs>
+        <fs xml:id="CATMA_AA3D7079-4869-4CD0-89DC-60F7419D09C8" type="CATMA_1EFB5BA1-BD27-4D19-B546-E10C45E47E04">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T16:34:23.655+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-10763045</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_CD32557E-1603-4595-84BA-EA194759E055" type="CATMA_93E5B3C2-DB73-4A58-BB17-14314BFF0132">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-31T17:54:57.591+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-6121226</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_22C4556C-86AD-4B35-B564-F1F4F74D39AF" type="CATMA_498D245F-9E9C-45AD-A76F-7707727BC69F">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T16:34:50.733+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-2182121</string>
+            </f>
+            <f name="parenetical_ethical_content"/>
+        </fs>
+        <fs xml:id="CATMA_03A68171-E9D8-47D6-9FA3-B9712FE9589E" type="CATMA_AC7F13B5-D6A5-4360-9C0B-515FBE274BDF">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T16:34:37.556+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-2803988</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_40166085-65A2-4A6F-9859-27BA1D303391" type="CATMA_7D5B4E86-D04A-4E36-8961-F49A374019EA">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T16:34:35.296+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-8878447</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_8828C703-6F4A-406B-B7A8-AB000D12E258" type="CATMA_3B4FD37E-39DC-40A6-A3FB-0A5E5BC3AFA3">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-31T17:55:36.438+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-9370377</string>
+            </f>
+            <f name="final_judgement"/>
+            <f name="wages"/>
+            <f name="punishment"/>
+            <f name="treasure"/>
+        </fs>
+        <fs xml:id="CATMA_AAB1C340-0588-4FCE-9831-31930B30972C" type="CATMA_ACE0E7EB-0E74-4845-B257-475B9B6FE9F1">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-31T17:55:42.044+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-8168132</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_E5F58F80-9324-4FC8-864A-9ADB0D032A87" type="CATMA_3B4FD37E-39DC-40A6-A3FB-0A5E5BC3AFA3">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T16:37:36.405+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-9370377</string>
+            </f>
+            <f name="final_judgement"/>
+            <f name="wages"/>
+            <f name="punishment"/>
+            <f name="treasure"/>
+        </fs>
+        <fs xml:id="CATMA_3DADD642-F446-4FB6-BFB5-355A42AE5DC6" type="CATMA_C795D5F8-A239-4997-B50C-B7F4E5880D97">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-31T17:56:08.619+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-9628849</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_92121EDA-EF9D-4F5B-B6A3-22DDB7983CB7" type="CATMA_BE9211A3-E16E-4633-A1F9-49DDD88B4AE3">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T16:37:58.832+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-2238829</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_53B92B41-29B1-4CED-A20D-F08A52E1F2FE" type="CATMA_A6623BBE-E39F-40C7-B2E7-DFEFB6F56237">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T16:37:54.515+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-138451</string>
+            </f>
+            <f name="following__listening__marking"/>
+        </fs>
+        <fs xml:id="CATMA_8008514E-71B7-4C0A-AC98-0600E7A4C887" type="CATMA_AC7F13B5-D6A5-4360-9C0B-515FBE274BDF">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-31T17:56:31.558+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-2803988</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_A25F605F-5835-44AB-94C6-197DB4147AE9" type="CATMA_831F210F-AFBE-4AD4-86D4-80C02CEBC761">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-07T17:05:32.470+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-15371886</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_EA2695B4-C854-4064-8A89-15EB82756B82" type="CATMA_6E376977-1E03-44E9-860A-0B1C90F8568D">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-07T17:05:19.767+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-7906388</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_F0C7311E-ACA0-4FA2-804D-5D7BA5EA90B3" type="CATMA_409E2E01-92D7-4C0F-8F84-02BA93FB528D">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-07T17:05:25.088+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-10652791</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_2C0310EB-1518-44DC-85BB-9C45B9A2BF7F" type="CATMA_498D245F-9E9C-45AD-A76F-7707727BC69F">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:04:48.133+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-2182121</string>
+            </f>
+            <f name="parenetical_ethical_content"/>
+        </fs>
+        <fs xml:id="CATMA_F121F0D3-3D1C-4F57-8BAD-73B92B10CBBB" type="CATMA_3DB89A41-7A1B-4E01-B416-6E7584451D0C">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:04:54.276+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-3082604</string>
+            </f>
+            <f name="death_related_orders_rituals"/>
+        </fs>
+        <fs xml:id="CATMA_C1412309-3E04-4B8B-9CD4-CA7235C22AF7" type="CATMA_A6623BBE-E39F-40C7-B2E7-DFEFB6F56237">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:04:40.945+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-138451</string>
+            </f>
+            <f name="following__listening__marking"/>
+        </fs>
+        <fs xml:id="CATMA_90448C27-EF6C-4506-89C8-FF9BE65557DD" type="CATMA_4A728083-DC42-4CA5-AD39-52363C41BE17">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:04:19.131+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-13064213</string>
+            </f>
+            <f name="farewell_address___oral__speech"/>
+        </fs>
+        <fs xml:id="CATMA_30AC6EAE-71CE-45C6-805E-76032BDD22CB" type="CATMA_7D5B4E86-D04A-4E36-8961-F49A374019EA">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:04:35.003+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-8878447</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_ECC05C0A-B7FD-42D0-9F94-55539FC0B8D4" type="CATMA_AC7F13B5-D6A5-4360-9C0B-515FBE274BDF">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:04:29.478+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-2803988</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_82678DCB-BEAC-4EE2-BC8B-00C672927E31" type="CATMA_6E376977-1E03-44E9-860A-0B1C90F8568D">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:05:03.705+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-7906388</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_515FFD3C-AFB3-47B5-AEA6-9A0E2D36B546" type="CATMA_409E2E01-92D7-4C0F-8F84-02BA93FB528D">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:05:08.845+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-10652791</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_9CA80FC5-340F-422C-9D33-210B44A997A0" type="CATMA_E59B33AC-636C-4B87-A89D-DA0562830074">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:05:22.122+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-2404688</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_792C0710-2EC3-460F-AD24-B970ECFBBBE9" type="CATMA_ECB3B71C-8C4D-4E4E-BCF4-124653C915BB">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:05:50.391+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-11203455</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_5A43DCAB-CCCE-41BD-ABA5-77A00289185B" type="CATMA_3D749A75-7936-4E58-B01E-41D7F0EA1DBE">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:06:04.831+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-12461996</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_85B8FF3F-06A5-4877-B053-881FCA5F74BF" type="CATMA_3D749A75-7936-4E58-B01E-41D7F0EA1DBE">
+            <f name="catma_markupauthor">
+                <string>DH-Projekt-Neues-Testament-Tuebingen</string>
+            </f>
+            <f name="catma_markuptimestamp">
+                <string>2026-07-09T15:06:21.676+0200</string>
+            </f>
+            <f name="catma_displaycolor">
+                <string>-12461996</string>
+            </f>
+        </fs>
+    </text>
+</TEI>

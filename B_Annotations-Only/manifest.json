@@ -1,0 +1,155 @@
+{
+  "LAB_19_[Ps.-Philon LAB 19_1–16_(Testament_of_Mose)]_Harrington": {
+    "xml": "LAB_19_[Ps.-Philon LAB 19_1–16_(Testament_of_Mose)]_Harrington.xml",
+    "txt_expected": "LAB_19_[Ps.-Philon LAB 19_1–16_(Testament_of_Mose)]_Harrington.txt",
+    "characters": 6072,
+    "sha256": "c8ddf7bc894de92e0b433823fd2438231b198eb594db6cc3b7f3b908909a1871",
+    "lines": 18,
+    "normalisation": "NFC",
+    "layout": "layout/LAB_19_[Ps.-Philon LAB 19_1–16_(Testament_of_Mose)]_Harrington.txt"
+  },
+  "LAB_23f._[Ps.-Philon LAB 23_1–24,6_(Testament_of_Joshua)]_Harrington": {
+    "xml": "LAB_23f._[Ps.-Philon LAB 23_1–24,6_(Testament_of_Joshua)]_Harrington.xml",
+    "txt_expected": "LAB_23f._[Ps.-Philon LAB 23_1–24,6_(Testament_of_Joshua)]_Harrington.txt",
+    "characters": 7043,
+    "sha256": "ae466188eebae7270f067ca3ef5153e96e39cac08d242b12fec65c1dd8fa4eb4",
+    "lines": 24,
+    "normalisation": "NFC",
+    "layout": "layout/LAB_23f._[Ps.-Philon LAB 23_1–24,6_(Testament_of_Joshua)]_Harrington.txt"
+  },
+  "LAB_28_[Ps.-Philon LAB 28_1–10_(Testament_of_Kenaz_and_Eleazar)]_Harrington": {
+    "xml": "LAB_28_[Ps.-Philon LAB 28_1–10_(Testament_of_Kenaz_and_Eleazar)]_Harrington.xml",
+    "txt_expected": "LAB_28_[Ps.-Philon LAB 28_1–10_(Testament_of_Kenaz_and_Eleazar)]_Harrington.txt",
+    "characters": 4407,
+    "sha256": "cd159357cc4eae0a8fccdf74a8a837e04ce1b60df93fefe47cf3151e184e4139",
+    "lines": 12,
+    "normalisation": "NFC",
+    "layout": "layout/LAB_28_[Ps.-Philon LAB 28_1–10_(Testament_of_Kenaz_and_Eleazar)]_Harrington.txt"
+  },
+  "LAB_29_[Ps.-Philon LAB 29_4_(Testament_of_Zebul)]_Harrington": {
+    "xml": "LAB_29_[Ps.-Philon LAB 29_4_(Testament_of_Zebul)]_Harrington.xml",
+    "txt_expected": "LAB_29_[Ps.-Philon LAB 29_4_(Testament_of_Zebul)]_Harrington.txt",
+    "characters": 493,
+    "sha256": "499734ad927a4f2b691b63e5730f721c0f89fd3465bcf56af2b2eab18b34c90a",
+    "lines": 3,
+    "normalisation": "NFC",
+    "layout": "layout/LAB_29_[Ps.-Philon LAB 29_4_(Testament_of_Zebul)]_Harrington.txt"
+  },
+  "LAB_33_[Ps.-Philon LAB 33_1–6_(Testament_of_Deborah)]_Harrington": {
+    "xml": "LAB_33_[Ps.-Philon LAB 33_1–6_(Testament_of_Deborah)]_Harrington.xml",
+    "txt_expected": "LAB_33_[Ps.-Philon LAB 33_1–6_(Testament_of_Deborah)]_Harrington.txt",
+    "characters": 2027,
+    "sha256": "27fd90f149a12042d44b42d4afa76926276c212550926aa0b8e8944256c8a730",
+    "lines": 14,
+    "normalisation": "NFC",
+    "layout": "layout/LAB_33_[Ps.-Philon LAB 33_1–6_(Testament_of_Deborah)]_Harrington.txt"
+  },
+  "TestXIIAss": {
+    "xml": "TestXIIAss.xml",
+    "txt_expected": "TestXIIAss.txt",
+    "characters": 6222,
+    "sha256": "e66e4e535ebf9d9e9146c5e3fd56708fbad3a4ed3a8aecc5faf71ce02137372f",
+    "lines": 62,
+    "normalisation": "NFC",
+    "layout": "layout/TestXIIAss.txt"
+  },
+  "TestXIIBenj": {
+    "xml": "TestXIIBenj.xml",
+    "txt_expected": "TestXIIBenj.txt",
+    "characters": 10024,
+    "sha256": "a4a6b9934c1971cc5bba82fd610095ec7195ec65a768e3dccff2e0f32a9571ff",
+    "lines": 94,
+    "normalisation": "NFC",
+    "layout": "layout/TestXIIBenj.txt"
+  },
+  "TestXIIDan": {
+    "xml": "TestXIIDan.xml",
+    "txt_expected": "TestXIIDan.txt",
+    "characters": 7440,
+    "sha256": "5d0a586520d8b5f4d2a8d435eba39afdc1953bf228d53f21a72a546de54ff1bd",
+    "lines": 69,
+    "normalisation": "NFC",
+    "layout": "layout/TestXIIDan.txt"
+  },
+  "TestXIIGad": {
+    "xml": "TestXIIGad.xml",
+    "txt_expected": "TestXIIGad.txt",
+    "characters": 7113,
+    "sha256": "f4d83468441edcdd88d7a61b7dde83f74548e8905913ab359073bff31fb4eba1",
+    "lines": 71,
+    "normalisation": "NFC",
+    "layout": "layout/TestXIIGad.txt"
+  },
+  "TestXIIIss": {
+    "xml": "TestXIIIss.xml",
+    "txt_expected": "TestXIIIss.txt",
+    "characters": 6404,
+    "sha256": "769a602b1c39960c5ad170f99fba24eb51e2d6d83a2d75b92784b0790f81d79d",
+    "lines": 70,
+    "normalisation": "NFC",
+    "layout": "layout/TestXIIIss.txt"
+  },
+  "TestXIIJos": {
+    "xml": "TestXIIJos.xml",
+    "txt_expected": "TestXIIJos.txt",
+    "characters": 16396,
+    "sha256": "aaf99835ff3fe83ea42aa7fe2bdfc2c08c5af7d04f0ca8783eca1dedff6247e1",
+    "lines": 174,
+    "normalisation": "NFC",
+    "layout": "layout/TestXIIJos.txt"
+  },
+  "TestXIIJud": {
+    "xml": "TestXIIJud.xml",
+    "txt_expected": "TestXIIJud.txt",
+    "characters": 20248,
+    "sha256": "a058fe398f4b82c1c476d7c0af9b1eac8cfe9e0d801c6ec423b41a11e158bb08",
+    "lines": 215,
+    "normalisation": "NFC",
+    "layout": "layout/TestXIIJud.txt"
+  },
+  "TestXIILev": {
+    "xml": "TestXIILev.xml",
+    "txt_expected": "TestXIILev.txt",
+    "characters": 18859,
+    "sha256": "c399372fd23a04e4598266cf0a2f5e7f6407b709620c111d15f31da12f3c7702",
+    "lines": 201,
+    "normalisation": "NFC",
+    "layout": "layout/TestXIILev.txt"
+  },
+  "TestXIINaft": {
+    "xml": "TestXIINaft.xml",
+    "txt_expected": "TestXIINaft.txt",
+    "characters": 9060,
+    "sha256": "2eff3a4aa21dc3c441564c8cb564295d34b9e8995d26364ef9935e5e5353cd7d",
+    "lines": 86,
+    "normalisation": "NFC",
+    "layout": "layout/TestXIINaft.txt"
+  },
+  "TestXIIRub": {
+    "xml": "TestXIIRub.xml",
+    "txt_expected": "TestXIIRub.txt",
+    "characters": 8522,
+    "sha256": "2c062266a62735e6ce9e5ee955f53fd2f6c98d834922247c0a5720b21a72f3d7",
+    "lines": 81,
+    "normalisation": "NFC",
+    "layout": "layout/TestXIIRub.txt"
+  },
+  "TestXIISeb": {
+    "xml": "TestXIISeb.xml",
+    "txt_expected": "TestXIISeb.txt",
+    "characters": 9306,
+    "sha256": "62911311d33b82ced279d7769f21b8750a7c7ce33881bf10c423d319b8506bfc",
+    "lines": 97,
+    "normalisation": "NFC",
+    "layout": "layout/TestXIISeb.txt"
+  },
+  "TestXIISim": {
+    "xml": "TestXIISim.xml",
+    "txt_expected": "TestXIISim.txt",
+    "characters": 7095,
+    "sha256": "60295fb5bc3eb980aba04d6a03f534a545b14e907c4d374ca9870f3dde44783f",
+    "lines": 72,
+    "normalisation": "NFC",
+    "layout": "layout/TestXIISim.txt"
+  }
+}

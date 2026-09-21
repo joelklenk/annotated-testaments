@@ -1,0 +1,69 @@
+cff-version: 1.2.0
+title: Annotated Corpus of Ancient Testamentary Literature
+message: >-
+  If you use this corpus, please cite it using the metadata from this file.
+type: dataset
+abstract: >-
+  Manual genre annotation of 33 ancient testamentary texts (Greek, Latin) in 38
+  text versions, comprising 3,451 annotation instances over a repertoire of 32
+  feature codes on four levels. The annotations record features typical of the
+  genre — narrative framing, speaker, addressees, proximity of death, ethical
+  exhortation, eschatological perspective and others. Annotated with CATMA;
+  published as TEI standoff annotations. For 17 of the 38 text versions the base
+  text cannot be redistributed; for these the annotations are published with
+  character offsets, SHA-256 checksums and a reconstruction script.
+authors:
+  - family-names: Klenk
+    given-names: Joel
+    affiliation: University of Tübingen
+    email: joel.klenk@uni-tuebingen.de
+  - family-names: Buschatz
+    given-names: Charlott
+    affiliation: University of Tübingen
+  - family-names: Käfer
+    given-names: Arne
+    affiliation: University of Tübingen
+  - family-names: Kim
+    given-names: Timotheus
+    affiliation: University of Tübingen
+  - family-names: Nehlsen
+    given-names: Nike
+    affiliation: University of Tübingen
+  - family-names: Rath
+    given-names: Anne
+    affiliation: University of Tübingen
+  - family-names: Steichele
+    given-names: Stefanie
+    affiliation: University of Tübingen
+version: "1"
+date-released: 2026-09-16
+license: CC-BY-4.0
+keywords:
+  - genre annotation
+  - testamentary literature
+  - farewell discourse
+  - Septuagint
+  - pseudepigrapha
+  - Ancient Greek
+  - Latin
+  - TEI
+  - CATMA
+references:
+  - type: software
+    title: CATMA
+    version: 7.3.0
+    doi: 10.5281/zenodo.1470118
+    year: 2026
+    authors:
+      - family-names: Gius
+        given-names: Evelyn
+      - family-names: Meister
+        given-names: Jan Christoph
+      - family-names: Meister
+        given-names: Malte
+      - family-names: von Detten
+        given-names: Immanuel
+      - family-names: Petris
+        given-names: Marco
+      - family-names: Messner
+        given-names: Stefanie

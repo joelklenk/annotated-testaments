@@ -1,0 +1,7 @@
+# Die Annotationen zeigen auf Zeichen-Offsets in den Textdateien. Wird beim
+# Auschecken auch nur ein Zeilenende umgeschrieben (LF -> CRLF, wie Git es
+# unter Windows standardmaessig tut), verschiebt sich jeder Offset dahinter
+# und jede SHA-256-Summe im Manifest stimmt nicht mehr.
+#
+# Deshalb: Git fasst hier keine Datei an.
+* -text
