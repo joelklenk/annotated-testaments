@@ -2,8 +2,9 @@ HOW TO CITE THIS CORPUS
 =======================
 
 Joel Klenk, Charlott Buschatz, Arne Käfer, Timotheus Chang-whae Kim,
-Nike Nehlsen, Anne Rath and Stefanie Steichele, Annotated Corpus of Ancient
-Testamentary Literature, version 1 (preliminary), University of Tübingen, 2026.
+Adele-Nike Nehlsen, Anne Maria Rath and Stefanie Steichele, Annotated Corpus
+of Ancient Testamentary Literature, version 1 (preliminary),
+University of Tübingen, 2026.
 DOI: [to be added on publication]
 
 The same metadata in machine-readable form is in CITATION.cff, which Zenodo
@@ -15,8 +16,8 @@ BibTeX
 
 @dataset{klenk2026testaments,
   author    = {Klenk, Joel and Buschatz, Charlott and K{\"a}fer, Arne and
-               Kim, Timotheus Chang-whae and Nehlsen, Nike and Rath, Anne and
-               Steichele, Stefanie},
+               Kim, Timotheus Chang-whae and Nehlsen, Adele-Nike and
+               Rath, Anne Maria and Steichele, Stefanie},
   title     = {Annotated Corpus of Ancient Testamentary Literature},
   year      = {2026},
   version   = {1},
@@ -36,8 +37,8 @@ AU  - Klenk, Joel
 AU  - Buschatz, Charlott
 AU  - Käfer, Arne
 AU  - Kim, Timotheus Chang-whae
-AU  - Nehlsen, Nike
-AU  - Rath, Anne
+AU  - Nehlsen, Adele-Nike
+AU  - Rath, Anne Maria
 AU  - Steichele, Stefanie
 PY  - 2026
 PB  - University of Tübingen
