@@ -317,10 +317,10 @@ When redistributing, the attributions of the incorporated texts must be retained
 
 ## Citation
 
-> Joel Klenk, Charlott Buschatz, Arne Käfer, Timotheus Kim, Nike Nehlsen,
-> Anne Rath and Stefanie Steichele, *Annotated Corpus of Ancient Testamentary
-> Literature*, version 1 (preliminary), University of Tübingen, 2026.
-> DOI: [to be added on publication]
+> Joel Klenk, Charlott Buschatz, Arne Käfer, Timotheus Chang-whae Kim,
+> Nike Nehlsen, Anne Rath and Stefanie Steichele, *Annotated Corpus of Ancient
+> Testamentary Literature*, version 1 (preliminary), University of Tübingen,
+> 2026. DOI: [to be added on publication]
 
 `CITATION.txt` holds the same reference as plain text, with BibTeX and RIS
 for reference managers. `CITATION.cff` holds it in machine-readable form;
