@@ -1,5 +1,7 @@
 # Annotated Corpus of Ancient Testamentary Literature
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22914441.svg)](https://doi.org/10.5281/zenodo.22914441)
+
 Manual genre annotation of 33 ancient testamentary texts (Greek, Latin).
 Annotated with CATMA; the annotations record features typical of the genre —
 narrative framing, speaker, addressees, proximity of death, ethical exhortation,
@@ -320,7 +322,7 @@ When redistributing, the attributions of the incorporated texts must be retained
 > Joel Klenk, Charlott Buschatz, Arne Käfer, Timotheus Chang-whae Kim,
 > Adele-Nike Nehlsen, Anne Maria Rath and Stefanie Steichele, *Annotated Corpus
 > of Ancient Testamentary Literature*, version 1 (preliminary),
-> University of Tübingen, 2026. DOI: [to be added on publication]
+> University of Tübingen, 2026. DOI: 10.5281/zenodo.22914441
 
 `CITATION.txt` holds the same reference as plain text, with BibTeX and RIS
 for reference managers. `CITATION.cff` holds it in machine-readable form;
