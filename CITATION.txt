@@ -4,7 +4,7 @@ HOW TO CITE THIS CORPUS
 Joel Klenk, Charlott Buschatz, Arne Käfer, Timotheus Chang-whae Kim,
 Adele-Nike Nehlsen, Anne Maria Rath and Stefanie Steichele, Annotated Corpus
 of Ancient Testamentary Literature, version 1, University of Tübingen, 2026.
-DOI: 10.5281/zenodo.22914441
+DOI: https://doi.org/10.5281/zenodo.22914441
 
 The same metadata in machine-readable form is in CITATION.cff, which Zenodo
 and GitHub read automatically. Below are two formats for reference managers.
@@ -22,6 +22,7 @@ BibTeX
   version   = {1},
   publisher = {University of T{\"u}bingen},
   doi       = {10.5281/zenodo.22914441},
+  url       = {https://doi.org/10.5281/zenodo.22914441},
   note      = {Manual genre annotation of 33 ancient testamentary texts
                (Greek, Latin) in 38 text versions}
 }
@@ -43,6 +44,7 @@ PY  - 2026
 PB  - University of Tübingen
 ET  - 1
 DO  - 10.5281/zenodo.22914441
+UR  - https://doi.org/10.5281/zenodo.22914441
 AB  - Manual genre annotation of 33 ancient testamentary texts (Greek, Latin)
       in 38 text versions, comprising 3,451 annotation instances over a
       repertoire of 32 feature codes on four levels. Annotated with CATMA;
